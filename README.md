@@ -91,6 +91,7 @@ This assignment explores two key aspects of Convolutional Neural Networks (CNNs)
 ---
     * It saves the best model parameters based on the best validation accuracy and reports the test accuracy of the best model obtained based on the validation accuracy. 
     You can also convert the same script as a notebook(it has been coded flexibly in that way), also I have provided the notebook as well in the name "finetune_resnet.ipynb".
+    * In addition, I have also kept the code for sweep involving all the three finetuning strategies(last layer, last k-layer, or complete training) as "part_B/sweep_b.py".
 ---
 
 ## Results and Analysis
