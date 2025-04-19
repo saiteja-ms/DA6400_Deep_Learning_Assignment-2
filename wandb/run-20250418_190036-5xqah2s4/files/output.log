@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 156, in <module>
+    wandb.save(model_path)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 27, in train_model
+    # Get data loaders
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 83, in get_data_loaders
+    for idx, (_, label) in enumerate(full_dataset):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 42, in __getitem__
+    image = self.transform(image)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\transforms.py", line 354, in forward
+    return F.resize(img, self.size, self.interpolation, self.max_size, self.antialias)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\functional.py", line 477, in resize
+    return F_pil.resize(img, size=output_size, interpolation=pil_interpolation)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\_functional_pil.py", line 250, in resize
+    return img.resize(tuple(size[::-1]), interpolation)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\PIL\Image.py", line 2316, in resize
+    return self._new(self.im.resize(size, resample, box))
+KeyboardInterrupt

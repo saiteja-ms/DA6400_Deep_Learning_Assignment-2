@@ -1,0 +1,24 @@
+2025-04-19 03:18:45,318 INFO    MainThread:32132 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-19 03:18:45,318 INFO    MainThread:32132 [wandb_setup.py:_flush():67] Configure stats pid to 32132
+2025-04-19 03:18:45,318 INFO    MainThread:32132 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-19 03:18:45,319 INFO    MainThread:32132 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-19 03:18:45,319 INFO    MainThread:32132 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-19 03:18:45,319 INFO    MainThread:32132 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_031845-v3umdybb\logs\debug.log
+2025-04-19 03:18:45,323 INFO    MainThread:32132 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_031845-v3umdybb\logs\debug-internal.log
+2025-04-19 03:18:45,323 INFO    MainThread:32132 [wandb_init.py:init():781] calling init triggers
+2025-04-19 03:18:45,323 INFO    MainThread:32132 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'Simple_CNN_Run', 'wandb_run_id': None, 'num_filters': 64, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'relu', 'dense_neurons': 256, 'dropout_rate': 0.3, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.001, 'batch_size': 32, 'epochs': 15, '_wandb': {}}
+2025-04-19 03:18:45,323 INFO    MainThread:32132 [wandb_init.py:init():809] starting backend
+2025-04-19 03:18:45,323 INFO    MainThread:32132 [wandb_init.py:init():813] sending inform_init request
+2025-04-19 03:18:45,351 INFO    MainThread:32132 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-19 03:18:45,352 INFO    MainThread:32132 [wandb_init.py:init():823] backend started and connected
+2025-04-19 03:18:45,353 INFO    MainThread:32132 [wandb_init.py:init():915] updated telemetry
+2025-04-19 03:18:45,356 INFO    MainThread:32132 [wandb_init.py:init():939] communicating run to backend with 300.0 second timeout
+2025-04-19 03:18:46,358 INFO    MainThread:32132 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-19 03:18:46,466 INFO    MainThread:32132 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-19 03:18:46,466 INFO    MainThread:32132 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-19 03:18:46,466 INFO    MainThread:32132 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-19 03:18:46,466 INFO    MainThread:32132 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-19 03:18:46,470 INFO    MainThread:32132 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-19 03:18:47,859 INFO    MainThread:32132 [wandb_watch.py:_watch():71] Watching
+2025-04-19 03:20:43,605 INFO    MsgRouterThr:32132 [mailbox.py:close():129] [no run ID] Closing mailbox, abandoning 1 handles.

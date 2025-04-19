@@ -1,0 +1,18 @@
+{"time":"2025-04-18T17:40:35.5766543+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_174035-gemzeprv\\logs\\debug-core.log"}
+{"time":"2025-04-18T17:40:35.9832647+05:30","level":"INFO","msg":"created new stream","id":"gemzeprv"}
+{"time":"2025-04-18T17:40:35.9832647+05:30","level":"INFO","msg":"stream: started","id":"gemzeprv"}
+{"time":"2025-04-18T17:40:35.9832647+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:40:35.9832647+05:30","level":"INFO","msg":"sender: started","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:40:35.9832647+05:30","level":"INFO","msg":"handler: started","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:40:36.2866151+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:40:43.2158961+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52584"}
+{"time":"2025-04-18T17:40:43.6706158+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52584"}
+{"time":"2025-04-18T17:42:13.1433184+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:42:13.1433184+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:42:14.1530292+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4096762,"progress":"6.3KB/6.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1252034,"progress":"1008B/1008B"}],"total_operations":2}}
+{"time":"2025-04-18T17:42:14.5823111+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:42:14.9455924+05:30","level":"INFO","msg":"stream: closing","id":"gemzeprv"}
+{"time":"2025-04-18T17:42:14.9455924+05:30","level":"INFO","msg":"handler: closed","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:42:14.9455924+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:42:14.9455924+05:30","level":"INFO","msg":"sender: closed","stream_id":"gemzeprv"}
+{"time":"2025-04-18T17:42:14.9455924+05:30","level":"INFO","msg":"stream: closed","id":"gemzeprv"}

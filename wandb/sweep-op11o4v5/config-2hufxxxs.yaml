@@ -1,0 +1,24 @@
+wandb_version: 1
+
+activation:
+  value: relu
+batch_norm:
+  value: true
+batch_size:
+  value: 64
+data_augmentation:
+  value: true
+dense_neurons:
+  value: 512
+dropout_rate:
+  value: 0.44558004117616046
+epochs:
+  value: 15
+filter_organization:
+  value: double
+filter_size:
+  value: 5
+learning_rate:
+  value: 0.0092797408840983
+num_filters:
+  value: 64

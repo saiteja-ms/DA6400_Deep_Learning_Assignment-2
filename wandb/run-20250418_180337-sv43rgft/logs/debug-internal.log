@@ -1,0 +1,18 @@
+{"time":"2025-04-18T18:03:37.0974504+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_180337-sv43rgft\\logs\\debug-core.log"}
+{"time":"2025-04-18T18:03:37.5004393+05:30","level":"INFO","msg":"created new stream","id":"sv43rgft"}
+{"time":"2025-04-18T18:03:37.5004393+05:30","level":"INFO","msg":"stream: started","id":"sv43rgft"}
+{"time":"2025-04-18T18:03:37.501033+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:03:37.501033+05:30","level":"INFO","msg":"handler: started","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:03:37.501033+05:30","level":"INFO","msg":"sender: started","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:03:38.1106337+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T18:03:45.0180225+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53213"}
+{"time":"2025-04-18T18:03:45.4835807+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53213"}
+{"time":"2025-04-18T18:05:15.0720308+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T18:05:15.0720308+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T18:05:16.0862355+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1255789,"progress":"1009B/1009B"}],"total_operations":1}}
+{"time":"2025-04-18T18:05:16.3159296+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T18:05:16.6337778+05:30","level":"INFO","msg":"stream: closing","id":"sv43rgft"}
+{"time":"2025-04-18T18:05:16.6337778+05:30","level":"INFO","msg":"handler: closed","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:05:16.6337778+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:05:16.6337778+05:30","level":"INFO","msg":"sender: closed","stream_id":"sv43rgft"}
+{"time":"2025-04-18T18:05:16.6344356+05:30","level":"INFO","msg":"stream: closed","id":"sv43rgft"}

@@ -1,0 +1,33 @@
+2025-04-19 10:47:34,191 - INFO - Starting W&B Run: fl_64_fo_half_fs_5_bs_64_ac_mish with ID: 1xi10h5u
+2025-04-19 10:47:34,191 - INFO - Run config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.22373544840877865, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 5, 'learning_rate': 0.0003607074135663504, 'num_filters': 64}
+2025-04-19 10:47:34,247 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 10:47:34,248 - INFO - Seed set to 42
+2025-04-19 10:47:34,248 - INFO - Using device: cuda
+2025-04-19 10:47:34,248 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 10:47:34,249 - INFO - Using data augmentation for training.
+2025-04-19 10:47:34,252 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 10:47:34,936 - INFO - Loaded 9999 image paths in total.
+2025-04-19 10:47:34,939 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 10:47:35,214 - INFO - Loaded 2000 image paths in total.
+2025-04-19 10:47:35,214 - INFO - Number of classes: 10
+2025-04-19 10:47:35,218 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 10:47:35,221 - INFO - Data loaders created successfully.
+2025-04-19 10:47:35,221 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 10:47:35,222 - INFO - Building CustomCNN: filters=[64, 32, 16, 8, 4], sizes=[5, 5, 5, 5, 5], activation=mish, dense=128, dropout=0.22373544840877865, bn=False
+2025-04-19 10:47:35,304 - INFO - Model created.
+2025-04-19 10:47:35,305 - INFO - Model Parameters: 99,430
+2025-04-19 10:47:35,305 - INFO - Estimated FLOPs (MACs*2): 463,004,736
+C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 10:47:35,308 - INFO - Starting training for 10 epochs...
+2025-04-19 10:50:42,373 - INFO - Ep 1/10 | Tr Loss: 2.2763, Tr Acc: 13.85% | Val Loss: 2.2330, Val Acc: 20.36% | LR: 0.000361 | Time: 187.07s                                                
+2025-04-19 10:53:52,740 - INFO - Ep 2/10 | Tr Loss: 2.1882, Tr Acc: 19.60% | Val Loss: 2.1763, Val Acc: 20.81% | LR: 0.000361 | Time: 190.37s                                                
+2025-04-19 10:57:04,040 - INFO - Ep 3/10 | Tr Loss: 2.1491, Tr Acc: 22.61% | Val Loss: 2.1376, Val Acc: 24.01% | LR: 0.000361 | Time: 191.30s                                                
+2025-04-19 11:00:08,832 - INFO - Ep 4/10 | Tr Loss: 2.1121, Tr Acc: 24.06% | Val Loss: 2.0938, Val Acc: 24.41% | LR: 0.000361 | Time: 184.79s                                                
+2025-04-19 11:03:10,641 - INFO - Ep 5/10 | Tr Loss: 2.0804, Tr Acc: 25.49% | Val Loss: 2.0789, Val Acc: 24.11% | LR: 0.000361 | Time: 181.81s                                                
+2025-04-19 11:06:12,704 - INFO - Ep 6/10 | Tr Loss: 2.0583, Tr Acc: 26.15% | Val Loss: 2.0593, Val Acc: 26.36% | LR: 0.000361 | Time: 182.06s                                                
+2025-04-19 11:09:15,036 - INFO - Ep 7/10 | Tr Loss: 2.0494, Tr Acc: 26.20% | Val Loss: 2.0564, Val Acc: 26.46% | LR: 0.000361 | Time: 182.33s                                                
+2025-04-19 11:12:21,090 - INFO - Ep 8/10 | Tr Loss: 2.0097, Tr Acc: 28.55% | Val Loss: 2.0294, Val Acc: 28.46% | LR: 0.000361 | Time: 186.05s                                                
+2025-04-19 11:15:30,503 - INFO - Ep 9/10 | Tr Loss: 2.0110, Tr Acc: 28.54% | Val Loss: 2.0234, Val Acc: 27.51% | LR: 0.000361 | Time: 189.41s                                                
+2025-04-19 11:18:32,900 - INFO - Ep 10/10 | Tr Loss: 1.9877, Tr Acc: 28.60% | Val Loss: 2.0053, Val Acc: 28.16% | LR: 0.000361 | Time: 182.40s                                               
+2025-04-19 11:18:32,901 - INFO - Run fl_64_fo_half_fs_5_bs_64_ac_mish finished. Best val_acc: 28.46% at epoch 8

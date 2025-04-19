@@ -1,0 +1,11 @@
+{"time":"2025-04-18T20:24:57.6280909+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_202457-otublbmt\\logs\\debug-core.log"}
+{"time":"2025-04-18T20:24:58.0492511+05:30","level":"INFO","msg":"created new stream","id":"otublbmt"}
+{"time":"2025-04-18T20:24:58.0497937+05:30","level":"INFO","msg":"stream: started","id":"otublbmt"}
+{"time":"2025-04-18T20:24:58.0497937+05:30","level":"INFO","msg":"handler: started","stream_id":"otublbmt"}
+{"time":"2025-04-18T20:24:58.0497937+05:30","level":"INFO","msg":"sender: started","stream_id":"otublbmt"}
+{"time":"2025-04-18T20:24:58.0497937+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"otublbmt"}
+{"time":"2025-04-18T20:24:58.3311583+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T20:25:05.8337088+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60730"}
+{"time":"2025-04-18T20:25:06.306197+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60730"}
+{"time":"2025-04-18T20:26:02.6856824+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T20:26:02.6856824+05:30","level":"INFO","msg":"Stopped system monitor"}

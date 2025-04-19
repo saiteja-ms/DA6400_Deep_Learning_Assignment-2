@@ -1,0 +1,16 @@
+{"time":"2025-04-19T18:34:06.337926+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_183406-ay8zzy08\\logs\\debug-core.log"}
+{"time":"2025-04-19T18:34:06.7447372+05:30","level":"INFO","msg":"created new stream","id":"ay8zzy08"}
+{"time":"2025-04-19T18:34:06.7447372+05:30","level":"INFO","msg":"stream: started","id":"ay8zzy08"}
+{"time":"2025-04-19T18:34:06.7447372+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:34:06.7454781+05:30","level":"INFO","msg":"handler: started","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:34:06.7454781+05:30","level":"INFO","msg":"sender: started","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:34:07.4221416+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T18:51:19.5092832+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T18:51:19.5092832+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T18:51:20.5179145+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4169635,"progress":"3.0KB/3.0KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4169635,"progress":"28.5KB/28.5KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1327805,"progress":"937B/937B"}],"total_operations":3}}
+{"time":"2025-04-19T18:51:20.734734+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T18:51:21.0896758+05:30","level":"INFO","msg":"stream: closing","id":"ay8zzy08"}
+{"time":"2025-04-19T18:51:21.0896758+05:30","level":"INFO","msg":"handler: closed","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:51:21.0896758+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:51:21.0896758+05:30","level":"INFO","msg":"sender: closed","stream_id":"ay8zzy08"}
+{"time":"2025-04-19T18:51:21.0896758+05:30","level":"INFO","msg":"stream: closed","id":"ay8zzy08"}

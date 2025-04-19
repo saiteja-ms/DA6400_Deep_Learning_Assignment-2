@@ -1,0 +1,18 @@
+{"time":"2025-04-19T02:31:02.8413005+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_023102-rqrsrv49\\logs\\debug-core.log"}
+{"time":"2025-04-19T02:31:04.0846843+05:30","level":"INFO","msg":"created new stream","id":"rqrsrv49"}
+{"time":"2025-04-19T02:31:04.0846843+05:30","level":"INFO","msg":"stream: started","id":"rqrsrv49"}
+{"time":"2025-04-19T02:31:04.0846843+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:31:04.0846843+05:30","level":"INFO","msg":"handler: started","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:31:04.0846843+05:30","level":"INFO","msg":"sender: started","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:31:04.4463907+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T02:31:14.6679342+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59972"}
+{"time":"2025-04-19T02:31:14.9913367+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59972"}
+{"time":"2025-04-19T02:32:45.7181745+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T02:32:45.7181745+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T02:32:46.7339139+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3790913,"progress":"6.4KB/6.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1027645,"progress":"1.0KB/1.0KB"}],"total_operations":2}}
+{"time":"2025-04-19T02:32:47.746853+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T02:32:48.0919411+05:30","level":"INFO","msg":"stream: closing","id":"rqrsrv49"}
+{"time":"2025-04-19T02:32:48.0919411+05:30","level":"INFO","msg":"handler: closed","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:32:48.0919411+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:32:48.0919411+05:30","level":"INFO","msg":"sender: closed","stream_id":"rqrsrv49"}
+{"time":"2025-04-19T02:32:48.0924519+05:30","level":"INFO","msg":"stream: closed","id":"rqrsrv49"}

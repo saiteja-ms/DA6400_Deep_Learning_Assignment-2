@@ -1,0 +1,4 @@
+[34m[1mwandb[0m: [33mWARNING[0m Calling wandb.run.save without any arguments is deprecated.Changes to attributes are automatically persisted.
+Current working directory: C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2
+Looking for train.py at: C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py
+File exists: True

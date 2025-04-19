@@ -1,0 +1,18 @@
+{"time":"2025-04-18T15:46:14.5649316+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_154614-87usgt1a\\logs\\debug-core.log"}
+{"time":"2025-04-18T15:46:14.971643+05:30","level":"INFO","msg":"created new stream","id":"87usgt1a"}
+{"time":"2025-04-18T15:46:14.971643+05:30","level":"INFO","msg":"stream: started","id":"87usgt1a"}
+{"time":"2025-04-18T15:46:14.971643+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:46:14.9722485+05:30","level":"INFO","msg":"handler: started","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:46:14.9722485+05:30","level":"INFO","msg":"sender: started","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:46:15.3103995+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T15:46:21.9936301+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50505"}
+{"time":"2025-04-18T15:46:22.4535096+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50505"}
+{"time":"2025-04-18T15:47:52.2590273+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T15:47:52.2590273+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T15:47:53.2645584+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3998167},{"desc":"uploading config.yaml","runtime_seconds":0.1022568,"progress":"861B/861B"}],"total_operations":2}}
+{"time":"2025-04-18T15:47:54.1863329+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T15:47:54.5268196+05:30","level":"INFO","msg":"stream: closing","id":"87usgt1a"}
+{"time":"2025-04-18T15:47:54.5268196+05:30","level":"INFO","msg":"handler: closed","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:47:54.5268196+05:30","level":"INFO","msg":"sender: closed","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:47:54.5268196+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"87usgt1a"}
+{"time":"2025-04-18T15:47:54.527483+05:30","level":"INFO","msg":"stream: closed","id":"87usgt1a"}

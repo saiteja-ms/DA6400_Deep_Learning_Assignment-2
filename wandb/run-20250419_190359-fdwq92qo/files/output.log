@@ -1,0 +1,41 @@
+2025-04-19 19:03:59,984 - INFO - Starting W&B Run: fl_128_fo_double_fs_3_bs_64_ac_mish with ID: fdwq92qo
+2025-04-19 19:03:59,984 - INFO - Run config: {'activation': 'mish', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.4079276535985389, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 3, 'learning_rate': 0.0001431328662090019, 'num_filters': 128}
+2025-04-19 19:03:59,987 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 19:03:59,988 - INFO - Seed set to 42
+2025-04-19 19:03:59,988 - INFO - Using device: cuda
+2025-04-19 19:03:59,988 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 19:03:59,989 - INFO - Using data augmentation for training.
+2025-04-19 19:03:59,990 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 19:04:00,669 - INFO - Loaded 9999 image paths in total.
+2025-04-19 19:04:00,671 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 19:04:00,945 - INFO - Loaded 2000 image paths in total.
+2025-04-19 19:04:00,945 - INFO - Number of classes: 10
+2025-04-19 19:04:00,950 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 19:04:00,955 - INFO - Data loaders created successfully.
+2025-04-19 19:04:00,956 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 19:04:00,956 - INFO - Building CustomCNN: filters=[128, 256, 512, 1024, 2048], sizes=[3, 3, 3, 3, 3], activation=mish, dense=128, dropout=0.4079276535985389, bn=True
+2025-04-19 19:04:01,292 - INFO - Model created.
+2025-04-19 19:04:01,294 - INFO - Model Parameters: 37,925,386
+2025-04-19 19:04:01,294 - INFO - Estimated FLOPs (MACs*2): 7,523,592,704
+2025-04-19 19:04:01,295 - INFO - Starting training for 10 epochs...
+2025-04-19 19:04:45,006 - ERROR - Error during training trial fdwq92qo: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 9.72 GiB is allocated by PyTorch, and 247.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\sweep.py", line 121, in train_sweep_trial
+    outputs = model(inputs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\module.py", line 1844, in _call_impl
+    return inner()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\module.py", line 1790, in inner
+    result = forward_call(*args, **kwargs)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\model.py", line 113, in forward
+    x = layer(x)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\modules\activation.py", line 471, in forward
+    return F.mish(input, inplace=self.inplace)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\nn\functional.py", line 2400, in mish
+    return torch._C._nn.mish(input)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 392.00 MiB. GPU 0 has a total capacity of 4.00 GiB of which 0 bytes is free. Of the allocated memory 9.72 GiB is allocated by PyTorch, and 247.16 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

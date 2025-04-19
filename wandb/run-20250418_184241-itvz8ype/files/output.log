@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 156, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 27, in train_model
+    train_loader, val_loader, _, classes = get_data_loaders(
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 75, in get_data_loaders
+    test_dataset = iNaturalistDataset(root_dir=test_dir, transform=val_transform)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 14, in __init__
+    self.classes = [d for d in os.listdir(root_dir)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'inaturalist_12K\\test'

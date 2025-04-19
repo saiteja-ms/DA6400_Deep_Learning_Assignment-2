@@ -1,0 +1,18 @@
+{"time":"2025-04-18T18:05:27.5499952+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_180527-zrv7qgkv\\logs\\debug-core.log"}
+{"time":"2025-04-18T18:05:27.9616648+05:30","level":"INFO","msg":"created new stream","id":"zrv7qgkv"}
+{"time":"2025-04-18T18:05:27.9622475+05:30","level":"INFO","msg":"stream: started","id":"zrv7qgkv"}
+{"time":"2025-04-18T18:05:27.9622475+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:05:27.9622475+05:30","level":"INFO","msg":"handler: started","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:05:27.9622475+05:30","level":"INFO","msg":"sender: started","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:05:28.3275974+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T18:05:35.2021927+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53268"}
+{"time":"2025-04-18T18:05:35.6507793+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53268"}
+{"time":"2025-04-18T18:07:05.1993988+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T18:07:05.1993988+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T18:07:06.2082843+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.2924874,"progress":"6.3KB/6.3KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.2924874,"progress":"25B/25B"}],"total_operations":2}}
+{"time":"2025-04-18T18:07:06.579098+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T18:07:07.3202351+05:30","level":"INFO","msg":"stream: closing","id":"zrv7qgkv"}
+{"time":"2025-04-18T18:07:07.3202351+05:30","level":"INFO","msg":"handler: closed","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:07:07.3202351+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:07:07.3202351+05:30","level":"INFO","msg":"sender: closed","stream_id":"zrv7qgkv"}
+{"time":"2025-04-18T18:07:07.3207403+05:30","level":"INFO","msg":"stream: closed","id":"zrv7qgkv"}

@@ -1,0 +1,18 @@
+{"time":"2025-04-18T17:38:45.1662636+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_173845-0zdp57of\\logs\\debug-core.log"}
+{"time":"2025-04-18T17:38:45.5948813+05:30","level":"INFO","msg":"created new stream","id":"0zdp57of"}
+{"time":"2025-04-18T17:38:45.5948813+05:30","level":"INFO","msg":"stream: started","id":"0zdp57of"}
+{"time":"2025-04-18T17:38:45.5948813+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:38:45.5948813+05:30","level":"INFO","msg":"handler: started","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:38:45.5948813+05:30","level":"INFO","msg":"sender: started","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:38:45.9046571+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:38:53.1241+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52530"}
+{"time":"2025-04-18T17:38:53.5621522+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52530"}
+{"time":"2025-04-18T17:40:23.0300239+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:40:23.0306133+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:40:24.0430101+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1031922,"progress":"1009B/1009B"}],"total_operations":1}}
+{"time":"2025-04-18T17:40:24.2906633+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:40:24.6370827+05:30","level":"INFO","msg":"stream: closing","id":"0zdp57of"}
+{"time":"2025-04-18T17:40:24.6370827+05:30","level":"INFO","msg":"handler: closed","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:40:24.6370827+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:40:24.6370827+05:30","level":"INFO","msg":"sender: closed","stream_id":"0zdp57of"}
+{"time":"2025-04-18T17:40:24.6370827+05:30","level":"INFO","msg":"stream: closed","id":"0zdp57of"}

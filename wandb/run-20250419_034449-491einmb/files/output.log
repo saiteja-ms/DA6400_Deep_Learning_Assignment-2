@@ -1,0 +1,48 @@
+2025-04-19 03:44:50,351 - INFO - Starting W&B Run: hl_?_bs_64_ac_relu with ID: 491einmb
+2025-04-19 03:44:50,352 - INFO - Run config: {'activation': 'relu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.4598876635865846, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 3, 'learning_rate': 0.0030007306900190203, 'num_filters': 128}
+2025-04-19 03:44:50,360 - INFO - CUDA not available. Setting CPU seeds only.
+2025-04-19 03:44:50,360 - INFO - Seed set to 42
+2025-04-19 03:44:50,361 - INFO - Using device: cpu
+2025-04-19 03:44:50,361 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0.2, img_size=224
+2025-04-19 03:44:50,362 - INFO - Data augmentation for training is disabled.
+2025-04-19 03:44:50,364 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:44:51,644 - INFO - Loaded 9999 image paths in total.
+2025-04-19 03:44:51,646 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:44:51,890 - INFO - Loaded 2000 image paths in total.
+2025-04-19 03:44:51,892 - INFO - Number of classes: 10
+2025-04-19 03:44:51,895 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 03:44:51,899 - INFO - Data loaders created successfully.
+2025-04-19 03:44:51,900 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 03:44:51,901 - INFO - Building CustomCNN: filters=[128, 256, 512, 1024, 2048], sizes=[3, 3, 3, 3, 3], activation=relu, dense=512, dropout=0.4598876635865846, bn=False
+2025-04-19 03:44:52,447 - INFO - Model created.
+2025-04-19 03:44:52,448 - INFO - Model Parameters: 76,460,810
+2025-04-19 03:44:52,448 - INFO - Estimated FLOPs (MACs*2): 7,588,227,072
+C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 03:44:52,452 - INFO - Starting training for 10 epochs...
+2025-04-19 03:49:32,740 - ERROR - Error during training trial 491einmb: DataLoader worker (pid(s) 18640, 9060, 20772, 16960) exited unexpectedly                                             
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\utils\data\dataloader.py", line 1251, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\multiprocessing\queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\multiprocessing\reductions.py", line 560, in rebuild_storage_filename
+    storage = torch.UntypedStorage._new_shared_filename_cpu(manager, handle, size)
+RuntimeError: Couldn't open shared event: <torch_18640_4238135560_4_event>, error code: <2>
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\sweep.py", line 117, in train_sweep_trial
+    for i, (inputs, labels) in enumerate(train_pbar):
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\utils\data\dataloader.py", line 708, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\utils\data\dataloader.py", line 1458, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\utils\data\dataloader.py", line 1420, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\utils\data\dataloader.py", line 1264, in _try_get_data
+    raise RuntimeError(
+RuntimeError: DataLoader worker (pid(s) 18640, 9060, 20772, 16960) exited unexpectedly

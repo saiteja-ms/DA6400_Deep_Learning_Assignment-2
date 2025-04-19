@@ -1,0 +1,26 @@
+2025-04-19 18:34:07,554 - INFO - Starting W&B Run: fl_64_fo_same_fs_5_bs_64_ac_relu with ID: ay8zzy08
+2025-04-19 18:34:07,554 - INFO - Run config: {'activation': 'relu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 256, 'dropout_rate': 0.14646301950894092, 'epochs': 10, 'filter_organization': 'same', 'filter_size': 5, 'learning_rate': 0.003432652494081283, 'num_filters': 64}
+2025-04-19 18:34:07,559 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 18:34:07,560 - INFO - Seed set to 42
+2025-04-19 18:34:07,560 - INFO - Using device: cuda
+2025-04-19 18:34:07,560 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 18:34:07,561 - INFO - Using data augmentation for training.
+2025-04-19 18:34:07,564 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:34:08,199 - INFO - Loaded 9999 image paths in total.
+2025-04-19 18:34:08,201 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:34:08,321 - INFO - Loaded 2000 image paths in total.
+2025-04-19 18:34:08,322 - INFO - Number of classes: 10
+2025-04-19 18:34:08,325 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 18:34:08,328 - INFO - Data loaders created successfully.
+2025-04-19 18:34:08,328 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 18:34:08,330 - INFO - Building CustomCNN: filters=[64, 64, 64, 64, 64], sizes=[5, 5, 5, 5, 5], activation=relu, dense=256, dropout=0.14646301950894092, bn=False
+2025-04-19 18:34:08,352 - INFO - Model created.
+2025-04-19 18:34:08,354 - INFO - Model Parameters: 1,220,362
+2025-04-19 18:34:08,354 - INFO - Estimated FLOPs (MACs*2): 975,025,152
+2025-04-19 18:34:08,355 - INFO - Starting training for 10 epochs...
+2025-04-19 18:37:22,401 - INFO - Ep 1/10 | Tr Loss: 2.3820, Tr Acc: 9.59% | Val Loss: 2.3031, Val Acc: 10.01% | LR: 0.003433 | Time: 193.89s                                                 
+2025-04-19 18:40:50,760 - INFO - Ep 2/10 | Tr Loss: 2.3032, Tr Acc: 9.35% | Val Loss: 2.3026, Val Acc: 10.01% | LR: 0.003433 | Time: 208.19s                                                 
+2025-04-19 18:44:26,388 - INFO - Ep 3/10 | Tr Loss: 2.3032, Tr Acc: 9.43% | Val Loss: 2.3025, Val Acc: 10.01% | LR: 0.003433 | Time: 215.46s                                                 
+2025-04-19 18:47:56,347 - INFO - Ep 4/10 | Tr Loss: 2.3032, Tr Acc: 8.93% | Val Loss: 2.3024, Val Acc: 10.01% | LR: 0.003433 | Time: 209.75s                                                 
+2025-04-19 18:51:19,493 - INFO - Ep 5/10 | Tr Loss: 2.3031, Tr Acc: 9.35% | Val Loss: 2.3025, Val Acc: 9.95% | LR: 0.003433 | Time: 202.96s                                                  
+2025-04-19 18:51:19,496 - INFO - Run fl_64_fo_same_fs_5_bs_64_ac_relu finished. Best val_acc: 10.01% at epoch 1

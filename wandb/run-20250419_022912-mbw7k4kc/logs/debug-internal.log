@@ -1,0 +1,18 @@
+{"time":"2025-04-19T02:29:12.203229+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_022912-mbw7k4kc\\logs\\debug-core.log"}
+{"time":"2025-04-19T02:29:13.7708975+05:30","level":"INFO","msg":"created new stream","id":"mbw7k4kc"}
+{"time":"2025-04-19T02:29:13.7708975+05:30","level":"INFO","msg":"stream: started","id":"mbw7k4kc"}
+{"time":"2025-04-19T02:29:13.7708975+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:29:13.7708975+05:30","level":"INFO","msg":"sender: started","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:29:13.7708975+05:30","level":"INFO","msg":"handler: started","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:29:14.0967338+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T02:29:25.6745683+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59919"}
+{"time":"2025-04-19T02:29:26.1082926+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59919"}
+{"time":"2025-04-19T02:30:56.6426303+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T02:30:56.6431503+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T02:30:57.6557121+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4379877,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.1378899,"progress":"1.0KB/1.0KB"}],"total_operations":2}}
+{"time":"2025-04-19T02:30:58.536642+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T02:30:58.9168208+05:30","level":"INFO","msg":"stream: closing","id":"mbw7k4kc"}
+{"time":"2025-04-19T02:30:58.9168208+05:30","level":"INFO","msg":"handler: closed","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:30:58.9168208+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:30:58.9168208+05:30","level":"INFO","msg":"sender: closed","stream_id":"mbw7k4kc"}
+{"time":"2025-04-19T02:30:58.9173641+05:30","level":"INFO","msg":"stream: closed","id":"mbw7k4kc"}

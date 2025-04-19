@@ -1,0 +1,26 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-04-18T13:07:20.963748Z",
+  "args": [
+    "--data_dir",
+    "inaturalist_12K",
+    "--num_filters",
+    "64",
+    "--filter_organization",
+    "double",
+    "--activation",
+    "relu",
+    "--dense_neurons",
+    "256",
+    "--batch_size",
+    "64"
+  ],
+  "program": "C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\part_A\\train.py",
+  "codePath": "part_A\\train.py",
+  "email": "me21b171@smail.iitm.ac.in",
+  "root": "C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2",
+  "host": "DESKTOP-EFCQNQI",
+  "executable": "C:\\Users\\DELL\\anaconda3\\envs\\CV\\python.exe",
+  "codePathLocal": "part_A\\train.py"
+}

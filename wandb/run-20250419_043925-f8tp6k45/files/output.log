@@ -1,0 +1,23 @@
+2025-04-19 04:39:26,991 - INFO - Starting W&B Run: hl_?_bs_32_ac_mish with ID: f8tp6k45
+2025-04-19 04:39:26,992 - INFO - Run config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.29298061084015914, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 5, 'learning_rate': 0.00020326482794226703, 'num_filters': 32}
+2025-04-19 04:39:27,009 - INFO - CUDA not available. Setting CPU seeds only.
+2025-04-19 04:39:27,010 - INFO - Seed set to 42
+2025-04-19 04:39:27,011 - INFO - Using device: cpu
+2025-04-19 04:39:27,012 - INFO - Setting up data loaders: batch_size=32, augment=False, val_split=0.2, img_size=224
+2025-04-19 04:39:27,012 - INFO - Data augmentation for training is disabled.
+2025-04-19 04:39:27,015 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 04:39:29,800 - INFO - Loaded 9999 image paths in total.
+2025-04-19 04:39:29,806 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 04:39:30,393 - INFO - Loaded 2000 image paths in total.
+2025-04-19 04:39:30,394 - INFO - Number of classes: 10
+2025-04-19 04:39:30,407 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 04:39:30,417 - INFO - Data loaders created successfully.
+2025-04-19 04:39:30,418 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 04:39:30,420 - INFO - Building CustomCNN: filters=[32, 64, 128, 256, 512], sizes=[5, 5, 5, 5, 5], activation=mish, dense=512, dropout=0.29298061084015914, bn=False
+2025-04-19 04:39:30,666 - INFO - Model created.
+2025-04-19 04:39:30,669 - INFO - Model Parameters: 17,206,090
+2025-04-19 04:39:30,671 - INFO - Estimated FLOPs (MACs*2): 1,370,417,152
+C:\Users\DELL\anaconda3\envs\CNN\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 04:39:30,677 - INFO - Starting training for 10 epochs...
+Epoch 1/10 [Train]:   0%|                                                                                                                                            | 0/250 [00:00<?, ?it/s]

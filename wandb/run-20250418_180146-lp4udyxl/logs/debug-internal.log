@@ -1,0 +1,18 @@
+{"time":"2025-04-18T18:01:46.9567335+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_180146-lp4udyxl\\logs\\debug-core.log"}
+{"time":"2025-04-18T18:01:47.360853+05:30","level":"INFO","msg":"created new stream","id":"lp4udyxl"}
+{"time":"2025-04-18T18:01:47.360853+05:30","level":"INFO","msg":"stream: started","id":"lp4udyxl"}
+{"time":"2025-04-18T18:01:47.3613647+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:01:47.3613647+05:30","level":"INFO","msg":"sender: started","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:01:47.3613647+05:30","level":"INFO","msg":"handler: started","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:01:47.6709075+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T18:01:54.6068895+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53180"}
+{"time":"2025-04-18T18:01:55.0578432+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53180"}
+{"time":"2025-04-18T18:03:24.5106609+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T18:03:24.5106609+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T18:03:25.5148828+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.0661375,"progress":"1007B/1007B"}],"total_operations":1}}
+{"time":"2025-04-18T18:03:25.7947137+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T18:03:26.1312454+05:30","level":"INFO","msg":"stream: closing","id":"lp4udyxl"}
+{"time":"2025-04-18T18:03:26.1312454+05:30","level":"INFO","msg":"handler: closed","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:03:26.1312454+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:03:26.1312454+05:30","level":"INFO","msg":"sender: closed","stream_id":"lp4udyxl"}
+{"time":"2025-04-18T18:03:26.1312454+05:30","level":"INFO","msg":"stream: closed","id":"lp4udyxl"}

@@ -1,0 +1,15 @@
+2025-04-19 22:24:15,067 - INFO - Initialized Wandb for Evaluation. Run ID: 0qwqobp7
+2025-04-19 22:24:15,075 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-19 22:24:15,077 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0, img_size=224
+2025-04-19 22:24:15,077 - INFO - Data augmentation for training is disabled.
+2025-04-19 22:24:15,080 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 22:24:15,904 - INFO - Loaded 9999 image paths in total.
+2025-04-19 22:24:15,905 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 22:24:16,087 - INFO - Loaded 2000 image paths in total.
+2025-04-19 22:24:16,088 - INFO - Number of classes: 10
+2025-04-19 22:24:16,089 - WARNING - val_split is not within (0, 1). Skipping validation split.
+2025-04-19 22:24:16,090 - INFO - Data loaders created successfully.
+2025-04-19 22:24:16,090 - INFO - Test data loader ready. Num classes: 10
+2025-04-19 22:24:16,091 - WARNING - Ensure architecture args passed to evaluate.py match the saved model!
+2025-04-19 22:24:16,091 - INFO - Local model path C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\output not found. Attempting to download from W&B Artifacts...
+2025-04-19 22:24:16,092 - ERROR - Failed to find or download model artifact: Model weights file not found locally: C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\output. Download artifact manually or provide correct path.

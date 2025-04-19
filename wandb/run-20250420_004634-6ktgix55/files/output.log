@@ -1,0 +1,21 @@
+2025-04-20 00:46:36,169 - INFO - Wandb run initialized. ID: 6ktgix55, Name: morning-fire-163
+2025-04-20 00:46:36,169 - INFO - Run config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'CNN_FROM_SCRATCH_SWEEP', 'wandb_run_id': None, 'num_filters': 128, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'silu', 'dense_neurons': 512, 'dropout_rate': 0.243, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.0005, 'batch_size': 32, 'epochs': 15}
+2025-04-20 00:46:36,174 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-20 00:46:36,175 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-20 00:46:36,175 - INFO - Using data augmentation for training.
+2025-04-20 00:46:36,176 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 00:46:37,012 - INFO - Loaded 9999 image paths in total.
+2025-04-20 00:46:37,014 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 00:46:37,168 - INFO - Loaded 2000 image paths in total.
+2025-04-20 00:46:37,168 - INFO - Number of classes: 10
+2025-04-20 00:46:37,172 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-20 00:46:37,176 - INFO - Data loaders created successfully.
+2025-04-20 00:46:37,176 - INFO - Data loaders ready. Num classes: 10
+2025-04-20 00:46:37,177 - INFO - Building CustomCNN: filters=[128, 128, 128, 128, 128], sizes=[3, 3, 3, 3, 3], activation=silu, dense=512, dropout=0.243, bn=True
+2025-04-20 00:46:37,322 - INFO - Model created and moved to device.
+2025-04-20 00:46:37,323 - INFO - Model Parameters: 3,811,466
+2025-04-20 00:46:37,323 - INFO - Estimated FLOPs (MACs*2): 1,330,000,384
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-20 00:46:37,333 - INFO - Starting training for 15 epochs...
+Epoch 1/15 [Train]:  21%|▏| 53/250 [10:33<1:17:30, 23.61s/it, Loss=2.4168, Acc=14.

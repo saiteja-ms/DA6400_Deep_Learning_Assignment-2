@@ -1,0 +1,50 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 1
+                - 2
+                - 14
+                - 17
+                - 23
+                - 55
+            "4": 3.9.21
+            "5": 0.19.9
+            "8":
+                - 3
+                - 5
+            "12": 0.19.9
+            "13": windows-amd64
+activation:
+    value: silu
+batch_norm:
+    value: true
+batch_size:
+    value: 64
+data_augmentation:
+    value: true
+dense_neurons:
+    value: 256
+dropout_rate:
+    value: 0.330672270662158
+epochs:
+    value: 10
+filter_organization:
+    value: half
+filter_size:
+    value: 5
+learning_rate:
+    value: 0.001458671611174068
+num_filters:
+    value: 32

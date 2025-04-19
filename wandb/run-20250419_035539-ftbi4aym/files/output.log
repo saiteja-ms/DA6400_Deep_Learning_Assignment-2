@@ -1,0 +1,27 @@
+2025-04-19 03:55:40,774 - INFO - Starting W&B Run: hl_?_bs_64_ac_silu with ID: ftbi4aym
+2025-04-19 03:55:40,774 - INFO - Run config: {'activation': 'silu', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 256, 'dropout_rate': 0.330672270662158, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 5, 'learning_rate': 0.001458671611174068, 'num_filters': 32}
+2025-04-19 03:55:40,837 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 03:55:40,838 - INFO - Seed set to 42
+2025-04-19 03:55:40,839 - INFO - Using device: cuda
+2025-04-19 03:55:40,839 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 03:55:40,839 - INFO - Using data augmentation for training.
+2025-04-19 03:55:40,841 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:55:42,478 - INFO - Loaded 9999 image paths in total.
+2025-04-19 03:55:42,480 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:55:42,779 - INFO - Loaded 2000 image paths in total.
+2025-04-19 03:55:42,779 - INFO - Number of classes: 10
+2025-04-19 03:55:42,783 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 03:55:42,788 - INFO - Data loaders created successfully.
+2025-04-19 03:55:42,788 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 03:55:42,788 - INFO - Building CustomCNN: filters=[32, 16, 8, 4, 2], sizes=[5, 5, 5, 5, 5], activation=silu, dense=256, dropout=0.330672270662158, bn=True
+2025-04-19 03:55:42,979 - INFO - Model created.
+2025-04-19 03:55:42,981 - INFO - Model Parameters: 47,438
+2025-04-19 03:55:42,981 - INFO - Estimated FLOPs (MACs*2): 147,733,848
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 03:55:42,983 - INFO - Starting training for 10 epochs...
+2025-04-19 03:57:34,597 - ERROR - Error during training trial ftbi4aym: name 'np' is not defined                                                                                             
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\sweep.py", line 173, in train_sweep_trial
+    if not np.isnan(val_loss): log_dict['val_loss'] = val_loss
+NameError: name 'np' is not defined

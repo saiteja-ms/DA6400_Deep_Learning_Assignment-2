@@ -1,0 +1,24 @@
+wandb_version: 1
+
+activation:
+  value: silu
+batch_norm:
+  value: false
+batch_size:
+  value: 64
+data_augmentation:
+  value: false
+dense_neurons:
+  value: 512
+dropout_rate:
+  value: 0.3180474795007951
+epochs:
+  value: 10
+filter_organization:
+  value: double
+filter_size:
+  value: 3
+learning_rate:
+  value: 0.00037863498195101896
+num_filters:
+  value: 32

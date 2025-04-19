@@ -1,0 +1,15 @@
+{"time":"2025-04-18T18:42:41.2025018+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_184241-itvz8ype\\logs\\debug-core.log"}
+{"time":"2025-04-18T18:42:42.7730342+05:30","level":"INFO","msg":"created new stream","id":"itvz8ype"}
+{"time":"2025-04-18T18:42:42.7735886+05:30","level":"INFO","msg":"stream: started","id":"itvz8ype"}
+{"time":"2025-04-18T18:42:42.7735886+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:42.7735886+05:30","level":"INFO","msg":"sender: started","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:42.7735886+05:30","level":"INFO","msg":"handler: started","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:43.1960715+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T18:42:45.7205725+05:30","level":"INFO","msg":"stream: closing","id":"itvz8ype"}
+{"time":"2025-04-18T18:42:45.7205725+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T18:42:45.7205725+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T18:42:46.8716298+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T18:42:47.2039488+05:30","level":"INFO","msg":"handler: closed","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:47.2039488+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:47.2047319+05:30","level":"INFO","msg":"sender: closed","stream_id":"itvz8ype"}
+{"time":"2025-04-18T18:42:47.2047319+05:30","level":"INFO","msg":"stream: closed","id":"itvz8ype"}

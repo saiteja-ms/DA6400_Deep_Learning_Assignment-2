@@ -1,0 +1,18 @@
+{"time":"2025-04-18T19:54:30.8842367+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_195430-0tui2auz\\logs\\debug-core.log"}
+{"time":"2025-04-18T19:54:31.3001407+05:30","level":"INFO","msg":"created new stream","id":"0tui2auz"}
+{"time":"2025-04-18T19:54:31.3001407+05:30","level":"INFO","msg":"stream: started","id":"0tui2auz"}
+{"time":"2025-04-18T19:54:31.3001407+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:54:31.300665+05:30","level":"INFO","msg":"handler: started","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:54:31.300665+05:30","level":"INFO","msg":"sender: started","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:54:31.6085299+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T19:54:40.2688633+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59051"}
+{"time":"2025-04-18T19:54:40.7111764+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:59051"}
+{"time":"2025-04-18T19:59:40.2382544+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T19:59:40.2382544+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T19:59:41.2400889+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4105995,"progress":"210B/210B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4105995,"progress":"110B/110B"},{"desc":"uploading config.yaml","runtime_seconds":0.1099033,"progress":"882B/882B"}],"total_operations":3}}
+{"time":"2025-04-18T19:59:41.4806936+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T19:59:41.7829728+05:30","level":"INFO","msg":"stream: closing","id":"0tui2auz"}
+{"time":"2025-04-18T19:59:41.7829728+05:30","level":"INFO","msg":"handler: closed","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:59:41.7829728+05:30","level":"INFO","msg":"sender: closed","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:59:41.7829728+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"0tui2auz"}
+{"time":"2025-04-18T19:59:41.7835134+05:30","level":"INFO","msg":"stream: closed","id":"0tui2auz"}

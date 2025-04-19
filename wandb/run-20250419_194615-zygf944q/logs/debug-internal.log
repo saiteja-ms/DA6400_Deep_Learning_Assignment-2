@@ -1,0 +1,17 @@
+{"time":"2025-04-19T19:46:15.112395+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_194615-zygf944q\\logs\\debug-core.log"}
+{"time":"2025-04-19T19:46:15.5276915+05:30","level":"INFO","msg":"created new stream","id":"zygf944q"}
+{"time":"2025-04-19T19:46:15.5276915+05:30","level":"INFO","msg":"stream: started","id":"zygf944q"}
+{"time":"2025-04-19T19:46:15.5276915+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:15.5276915+05:30","level":"INFO","msg":"sender: started","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:15.5276915+05:30","level":"INFO","msg":"handler: started","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:15.8190289+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T19:46:15.8190289+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"sweep 6hw3q9fq not found\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2025-04-19T19:46:16.8245669+05:30","level":"INFO","msg":"stream: closing","id":"zygf944q"}
+{"time":"2025-04-19T19:46:16.8245669+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-19T19:46:17.1293653+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T19:46:17.1293653+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /uncategorized not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-19T19:46:17.1306044+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T19:46:17.1306044+05:30","level":"INFO","msg":"handler: closed","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:17.1306044+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:17.1306044+05:30","level":"INFO","msg":"sender: closed","stream_id":"zygf944q"}
+{"time":"2025-04-19T19:46:17.1306044+05:30","level":"INFO","msg":"stream: closed","id":"zygf944q"}

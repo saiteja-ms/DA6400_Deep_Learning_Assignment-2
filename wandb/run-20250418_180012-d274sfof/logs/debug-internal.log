@@ -1,0 +1,6 @@
+{"time":"2025-04-18T18:00:12.115377+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_180012-d274sfof\\logs\\debug-core.log"}
+{"time":"2025-04-18T18:00:12.391157+05:30","level":"INFO","msg":"created new stream","id":"d274sfof"}
+{"time":"2025-04-18T18:00:12.391157+05:30","level":"INFO","msg":"stream: started","id":"d274sfof"}
+{"time":"2025-04-18T18:00:12.391157+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"d274sfof"}
+{"time":"2025-04-18T18:00:12.391157+05:30","level":"INFO","msg":"handler: started","stream_id":"d274sfof"}
+{"time":"2025-04-18T18:00:12.391157+05:30","level":"INFO","msg":"sender: started","stream_id":"d274sfof"}

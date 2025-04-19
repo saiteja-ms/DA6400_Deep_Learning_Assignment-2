@@ -1,0 +1,26 @@
+2025-04-19 19:04:58,619 - INFO - Starting W&B Run: fl_32_fo_same_fs_3_bs_32_ac_silu with ID: qpqnpt6z
+2025-04-19 19:04:58,620 - INFO - Run config: {'activation': 'silu', 'batch_norm': True, 'batch_size': 32, 'data_augmentation': True, 'dense_neurons': 512, 'dropout_rate': 0.39319158362798634, 'epochs': 10, 'filter_organization': 'same', 'filter_size': 3, 'learning_rate': 0.0010595375067730874, 'num_filters': 32}
+2025-04-19 19:04:58,623 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 19:04:58,624 - INFO - Seed set to 42
+2025-04-19 19:04:58,624 - INFO - Using device: cuda
+2025-04-19 19:04:58,625 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-19 19:04:58,625 - INFO - Using data augmentation for training.
+2025-04-19 19:04:58,628 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 19:04:59,648 - INFO - Loaded 9999 image paths in total.
+2025-04-19 19:04:59,650 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 19:04:59,817 - INFO - Loaded 2000 image paths in total.
+2025-04-19 19:04:59,818 - INFO - Number of classes: 10
+2025-04-19 19:04:59,822 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 19:04:59,826 - INFO - Data loaders created successfully.
+2025-04-19 19:04:59,827 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 19:04:59,828 - INFO - Building CustomCNN: filters=[32, 32, 32, 32, 32], sizes=[3, 3, 3, 3, 3], activation=silu, dense=512, dropout=0.39319158362798634, bn=True
+2025-04-19 19:04:59,854 - INFO - Model created.
+2025-04-19 19:04:59,857 - INFO - Model Parameters: 846,506
+2025-04-19 19:04:59,857 - INFO - Estimated FLOPs (MACs*2): 102,199,936
+2025-04-19 19:04:59,858 - INFO - Starting training for 10 epochs...
+2025-04-19 19:06:45,837 - INFO - Ep 1/10 | Tr Loss: 2.2726, Tr Acc: 16.04% | Val Loss: 2.2176, Val Acc: 16.31% | LR: 0.001060 | Time: 104.98s
+2025-04-19 19:08:27,126 - INFO - Ep 2/10 | Tr Loss: 2.1608, Tr Acc: 20.85% | Val Loss: 2.1279, Val Acc: 22.86% | LR: 0.001060 | Time: 101.27s
+2025-04-19 19:10:10,155 - INFO - Ep 3/10 | Tr Loss: 2.0982, Tr Acc: 24.79% | Val Loss: 2.0608, Val Acc: 25.91% | LR: 0.001060 | Time: 103.01s
+2025-04-19 19:11:48,382 - INFO - Ep 4/10 | Tr Loss: 2.0543, Tr Acc: 26.51% | Val Loss: 2.1102, Val Acc: 23.86% | LR: 0.001060 | Time: 98.21s
+2025-04-19 19:13:26,939 - INFO - Ep 5/10 | Tr Loss: 2.0271, Tr Acc: 27.51% | Val Loss: 2.0281, Val Acc: 27.86% | LR: 0.001060 | Time: 98.52s
+2025-04-19 19:13:26,940 - INFO - Run fl_32_fo_same_fs_3_bs_32_ac_silu finished. Best val_acc: 27.86% at epoch 5

@@ -1,0 +1,30 @@
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_setup.py:_flush():67] Configure stats pid to 32548
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-18 18:07:09,163 INFO    Thread-97 :32548 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_180709-2rmh98w2\logs\debug.log
+2025-04-18 18:07:09,164 INFO    Thread-97 :32548 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_180709-2rmh98w2\logs\debug-internal.log
+2025-04-18 18:07:09,164 INFO    Thread-97 :32548 [wandb_init.py:init():781] calling init triggers
+2025-04-18 18:07:09,164 INFO    Thread-97 :32548 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.4560390181159063, 'epochs': 15, 'filter_organization': 'same', 'filter_size': 5, 'learning_rate': 0.008224505400979685, 'num_filters': 64}
+config: {'_wandb': {}}
+2025-04-18 18:07:09,164 INFO    Thread-97 :32548 [wandb_init.py:init():809] starting backend
+2025-04-18 18:07:09,164 INFO    Thread-97 :32548 [wandb_init.py:init():813] sending inform_init request
+2025-04-18 18:07:09,166 INFO    Thread-97 :32548 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-18 18:07:09,166 INFO    Thread-97 :32548 [wandb_init.py:init():823] backend started and connected
+2025-04-18 18:07:09,167 INFO    Thread-97 :32548 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.4560390181159063, 'epochs': 15, 'filter_organization': 'same', 'filter_size': 5, 'learning_rate': 0.008224505400979685, 'num_filters': 64}
+2025-04-18 18:07:09,167 INFO    Thread-97 :32548 [wandb_init.py:init():915] updated telemetry
+2025-04-18 18:07:09,171 INFO    Thread-97 :32548 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-18 18:07:09,914 INFO    Thread-97 :32548 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-18 18:07:10,013 INFO    Thread-97 :32548 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-18 18:07:10,013 INFO    Thread-97 :32548 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-18 18:07:10,013 INFO    Thread-97 :32548 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-18 18:07:10,013 INFO    Thread-97 :32548 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-18 18:07:10,014 INFO    Thread-97 :32548 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-18 18:08:46,627 INFO    Thread-97 :32548 [wandb_run.py:_finish():2189] finishing run teja_sai-indian-institute-of-technology-madras/CNN-From-Scratch-Assignment/2rmh98w2
+2025-04-18 18:08:46,628 INFO    Thread-97 :32548 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-18 18:08:46,628 INFO    Thread-97 :32548 [wandb_run.py:_restore():2401] restore
+2025-04-18 18:08:46,628 INFO    Thread-97 :32548 [wandb_run.py:_restore():2407] restore done
+2025-04-18 18:08:48,172 INFO    Thread-97 :32548 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-18 18:08:48,172 INFO    Thread-97 :32548 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-18 18:08:48,172 INFO    Thread-97 :32548 [wandb_run.py:_footer_sync_info():4025] logging synced files

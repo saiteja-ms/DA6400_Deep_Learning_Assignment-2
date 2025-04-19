@@ -1,0 +1,24 @@
+wandb_version: 1
+
+activation:
+  value: gelu
+batch_norm:
+  value: true
+batch_size:
+  value: 32
+data_augmentation:
+  value: true
+dense_neurons:
+  value: 128
+dropout_rate:
+  value: 0.26565847972068257
+epochs:
+  value: 15
+filter_organization:
+  value: half
+filter_size:
+  value: 5
+learning_rate:
+  value: 0.005499059560251332
+num_filters:
+  value: 64

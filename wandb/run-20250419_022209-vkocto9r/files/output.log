@@ -1,0 +1,30 @@
+2025-04-19 02:22:11,063 - INFO - Wandb run initialized. ID: vkocto9r, Name: ethereal-sun-1
+2025-04-19 02:22:11,064 - INFO - Run config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'CNN_FROM_SCRATCH', 'wandb_run_id': None, 'num_filters': 64, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'relu', 'dense_neurons': 256, 'dropout_rate': 0.3, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.001, 'batch_size': 32, 'epochs': 10}
+2025-04-19 02:22:11,069 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-19 02:22:11,070 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-19 02:22:11,071 - INFO - Using data augmentation for training.
+2025-04-19 02:22:11,073 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 02:22:12,102 - INFO - Loaded 9999 image paths in total.
+2025-04-19 02:22:12,103 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 02:22:12,267 - INFO - Loaded 2000 image paths in total.
+2025-04-19 02:22:12,268 - INFO - Number of classes: 10
+2025-04-19 02:22:12,271 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 02:22:12,276 - INFO - Data loaders created successfully.
+2025-04-19 02:22:12,278 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 02:22:12,278 - INFO - Building CustomCNN: filters=[64, 64, 64, 64, 64], sizes=[3, 3, 3, 3, 3], activation=relu, dense=256, dropout=0.3, bn=True
+2025-04-19 02:22:12,416 - INFO - Model created and moved to device.
+2025-04-19 02:22:12,418 - INFO - Model Parameters: 955,466
+2025-04-19 02:22:12,418 - INFO - Estimated FLOPs (MACs*2): 356,317,440
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 02:22:12,421 - INFO - Starting training for 10 epochs...
+2025-04-19 02:23:59,393 - INFO - Epoch 1/10 | Train Loss: 2.2850, Train Acc: 16.18% | Val Loss: 2.2445, Val Acc: 17.16% | LR: 0.001000 | Time: 106.97s
+2025-04-19 02:23:59,433 - INFO - New best model saved: best_model_ep1_acc17.16.pth
+2025-04-19 02:25:40,869 - INFO - Epoch 2/10 | Train Loss: 2.1968, Train Acc: 18.76% | Val Loss: 2.1534, Val Acc: 21.31% | LR: 0.001000 | Time: 101.44s
+2025-04-19 02:25:40,913 - INFO - New best model saved: best_model_ep2_acc21.31.pth
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 260, in <module>
+    parser.add_argument("--seed", type=int, default=42, help="Random seed for reproducibility")
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 122, in train_model
+    running_loss += loss.item()
+KeyboardInterrupt

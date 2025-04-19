@@ -1,0 +1,46 @@
+2025-04-19 15:05:19,233 - INFO - Starting W&B Run: fl_64_fo_half_fs_3_bs_32_ac_silu with ID: 8dlna8kl
+2025-04-19 15:05:19,234 - INFO - Run config: {'activation': 'silu', 'batch_norm': True, 'batch_size': 32, 'data_augmentation': True, 'dense_neurons': 256, 'dropout_rate': 0.32344843564412984, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.003931653624884796, 'num_filters': 64}
+2025-04-19 15:05:19,298 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 15:05:19,298 - INFO - Seed set to 42
+2025-04-19 15:05:19,299 - INFO - Using device: cuda
+2025-04-19 15:05:19,300 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-19 15:05:19,300 - INFO - Using data augmentation for training.
+2025-04-19 15:05:19,302 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 15:05:20,668 - INFO - Loaded 9999 image paths in total.
+2025-04-19 15:05:20,669 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 15:05:20,943 - INFO - Loaded 2000 image paths in total.
+2025-04-19 15:05:20,944 - INFO - Number of classes: 10
+2025-04-19 15:05:20,948 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 15:05:20,952 - INFO - Data loaders created successfully.
+2025-04-19 15:05:20,953 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 15:05:20,954 - INFO - Building CustomCNN: filters=[64, 32, 16, 8, 4], sizes=[3, 3, 3, 3, 3], activation=silu, dense=256, dropout=0.32344843564412984, bn=True
+2025-04-19 15:05:21,139 - INFO - Model created.
+2025-04-19 15:05:21,141 - INFO - Model Parameters: 79,458
+2025-04-19 15:05:21,142 - INFO - Estimated FLOPs (MACs*2): 170,438,096
+C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 15:05:21,145 - INFO - Starting training for 10 epochs...
+2025-04-19 15:05:56,794 - ERROR - Error during training trial 8dlna8kl: DataLoader worker (pid(s) 25868, 1512, 17960, 10936) exited unexpectedly                                             
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\utils\data\dataloader.py", line 1243, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\queue.py", line 179, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\sweep.py", line 117, in train_sweep_trial
+    for i, (inputs, labels) in enumerate(train_pbar):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\utils\data\dataloader.py", line 1448, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\utils\data\dataloader.py", line 1402, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\utils\data\dataloader.py", line 1256, in _try_get_data
+    raise RuntimeError(
+RuntimeError: DataLoader worker (pid(s) 25868, 1512, 17960, 10936) exited unexpectedly

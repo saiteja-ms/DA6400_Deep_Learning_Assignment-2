@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 180, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 28, in train_model
+    train_loader, val_loader, _, classes = get_data_loaders(
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 83, in get_data_loaders
+    for idx, (_, label) in enumerate(full_dataset):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 42, in __getitem__
+    image = self.transform(image)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\transforms.py", line 95, in __call__
+    img = t(img)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\nn\modules\module.py", line 1739, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\nn\modules\module.py", line 1750, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\transforms.py", line 1274, in forward
+    img = F.adjust_brightness(img, brightness_factor)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\functional.py", line 885, in adjust_brightness
+    return F_pil.adjust_brightness(img, brightness_factor)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torchvision\transforms\_functional_pil.py", line 73, in adjust_brightness
+    img = enhancer.enhance(brightness_factor)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\PIL\ImageEnhance.py", line 40, in enhance
+    return Image.blend(self.degenerate, self.image, factor)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\PIL\Image.py", line 3614, in blend
+    return im1._new(core.blend(im1.im, im2.im, alpha))
+KeyboardInterrupt

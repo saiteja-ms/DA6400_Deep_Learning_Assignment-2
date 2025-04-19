@@ -1,0 +1,26 @@
+2025-04-19 03:18:46,470 - INFO - Wandb run initialized. ID: v3umdybb, Name: glowing-resonance-1
+2025-04-19 03:18:46,471 - INFO - Run config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'Simple_CNN_Run', 'wandb_run_id': None, 'num_filters': 64, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'relu', 'dense_neurons': 256, 'dropout_rate': 0.3, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.001, 'batch_size': 32, 'epochs': 15}
+2025-04-19 03:18:46,480 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-19 03:18:46,481 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-19 03:18:46,481 - INFO - Using data augmentation for training.
+2025-04-19 03:18:46,483 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:18:47,424 - INFO - Loaded 9999 image paths in total.
+2025-04-19 03:18:47,426 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:18:47,700 - INFO - Loaded 2000 image paths in total.
+2025-04-19 03:18:47,701 - INFO - Number of classes: 10
+2025-04-19 03:18:47,705 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 03:18:47,708 - INFO - Data loaders created successfully.
+2025-04-19 03:18:47,709 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 03:18:47,710 - INFO - Building CustomCNN: filters=[64, 64, 64, 64, 64], sizes=[3, 3, 3, 3, 3], activation=relu, dense=256, dropout=0.3, bn=True
+2025-04-19 03:18:47,858 - INFO - Model created and moved to device.
+2025-04-19 03:18:47,860 - INFO - Model Parameters: 955,466
+2025-04-19 03:18:47,860 - INFO - Estimated FLOPs (MACs*2): 356,317,440
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 03:18:47,863 - INFO - Starting training for 15 epochs...
+Traceback (most recent call last):                                                                                                                                    
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 290, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 192, in train_model
+    if not np.isnan(val_loss): log_dict['val_loss'] = val_loss
+NameError: name 'np' is not defined

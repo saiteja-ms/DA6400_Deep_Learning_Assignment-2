@@ -1,0 +1,26 @@
+2025-04-20 01:06:56,885 - INFO - Wandb run initialized. ID: wna4yyis, Name: proud-music-169
+2025-04-20 01:06:56,886 - INFO - Run config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'CNN_FROM_SCRATCH_SWEEP', 'wandb_run_id': None, 'num_filters': 128, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'mish', 'dense_neurons': 512, 'dropout_rate': 0.2, 'batch_norm': True, 'data_augmentation': False, 'learning_rate': 0.0001, 'batch_size': 32, 'epochs': 15}
+2025-04-20 01:06:56,891 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-20 01:06:56,891 - INFO - Setting up data loaders: batch_size=32, augment=False, val_split=0.2, img_size=224
+2025-04-20 01:06:56,892 - INFO - Data augmentation for training is disabled.
+2025-04-20 01:06:56,893 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 01:06:57,483 - INFO - Loaded 9999 image paths in total.
+2025-04-20 01:06:57,485 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 01:06:57,608 - INFO - Loaded 2000 image paths in total.
+2025-04-20 01:06:57,609 - INFO - Number of classes: 10
+2025-04-20 01:06:57,612 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-20 01:06:57,615 - INFO - Data loaders created successfully.
+2025-04-20 01:06:57,615 - INFO - Data loaders ready. Num classes: 10
+2025-04-20 01:06:57,616 - INFO - Building CustomCNN: filters=[128, 128, 128, 128, 128], sizes=[3, 3, 3, 3, 3], activation=mish, dense=512, dropout=0.2, bn=True
+2025-04-20 01:06:57,710 - INFO - Model created and moved to device.
+2025-04-20 01:06:57,711 - INFO - Model Parameters: 3,811,466
+2025-04-20 01:06:57,712 - INFO - Estimated FLOPs (MACs*2): 1,330,000,384
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-20 01:06:57,714 - INFO - Starting training for 15 epochs...
+Traceback (most recent call last):                                                                                                                                                           
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 299, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 129, in train_model
+    running_loss += loss.item()
+KeyboardInterrupt

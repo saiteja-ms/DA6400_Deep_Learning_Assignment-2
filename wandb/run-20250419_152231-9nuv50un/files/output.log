@@ -1,0 +1,28 @@
+2025-04-19 15:22:32,530 - INFO - Starting W&B Run: fl_128_fo_half_fs_5_bs_64_ac_mish with ID: 9nuv50un
+2025-04-19 15:22:32,530 - INFO - Run config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.18332535084440296, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 5, 'learning_rate': 0.0004082380023492699, 'num_filters': 128}
+2025-04-19 15:22:32,532 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 15:22:32,533 - INFO - Seed set to 42
+2025-04-19 15:22:32,533 - INFO - Using device: cuda
+2025-04-19 15:22:32,533 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0.2, img_size=224
+2025-04-19 15:22:32,533 - INFO - Data augmentation for training is disabled.
+2025-04-19 15:22:32,535 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 15:22:33,245 - INFO - Loaded 9999 image paths in total.
+2025-04-19 15:22:33,255 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 15:22:33,555 - INFO - Loaded 2000 image paths in total.
+2025-04-19 15:22:33,555 - INFO - Number of classes: 10
+2025-04-19 15:22:33,558 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 15:22:33,561 - INFO - Data loaders created successfully.
+2025-04-19 15:22:33,561 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 15:22:33,562 - INFO - Building CustomCNN: filters=[128, 64, 32, 16, 8], sizes=[5, 5, 5, 5, 5], activation=mish, dense=512, dropout=0.18332535084440296, bn=False
+2025-04-19 15:22:33,573 - INFO - Model created.
+2025-04-19 15:22:33,574 - INFO - Model Parameters: 488,194
+2025-04-19 15:22:33,574 - INFO - Estimated FLOPs (MACs*2): 1,611,374,848
+2025-04-19 15:22:33,575 - INFO - Starting training for 10 epochs...
+2025-04-19 15:43:58,193 - INFO - Ep 1/10 | Tr Loss: 2.1992, Tr Acc: 19.23% | Val Loss: 2.0907, Val Acc: 24.51% | LR: 0.000408 | Time: 1284.61s                                               
+2025-04-19 16:05:59,519 - INFO - Ep 2/10 | Tr Loss: 2.0596, Tr Acc: 26.60% | Val Loss: 2.0264, Val Acc: 29.31% | LR: 0.000408 | Time: 1321.32s                                               
+2025-04-19 16:28:26,297 - INFO - Ep 3/10 | Tr Loss: 1.9833, Tr Acc: 29.35% | Val Loss: 1.9953, Val Acc: 28.61% | LR: 0.000408 | Time: 1346.77s                                               
+2025-04-19 16:49:24,832 - INFO - Ep 4/10 | Tr Loss: 1.9398, Tr Acc: 31.52% | Val Loss: 2.0019, Val Acc: 29.36% | LR: 0.000408 | Time: 1258.53s                       
+2025-04-19 17:10:25,738 - INFO - Ep 5/10 | Tr Loss: 1.8991, Tr Acc: 33.04% | Val Loss: 1.9608, Val Acc: 30.87% | LR: 0.000408 | Time: 1260.90s                       
+2025-04-19 17:32:06,619 - INFO - Ep 6/10 | Tr Loss: 1.8582, Tr Acc: 34.56% | Val Loss: 1.9337, Val Acc: 31.57% | LR: 0.000408 | Time: 1300.88s                       
+2025-04-19 17:53:31,893 - INFO - Ep 7/10 | Tr Loss: 1.8141, Tr Acc: 35.69% | Val Loss: 1.9319, Val Acc: 32.77% | LR: 0.000408 | Time: 1285.27s                       
+Epoch 8/10 [Train]:  82%|██████████████████████████████████████████████████████████████████               | 102/125 [16:26<03:24,  8.91s/it, Loss=1.7592, Acc=38.21%]

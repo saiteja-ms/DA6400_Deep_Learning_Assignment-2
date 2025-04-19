@@ -1,0 +1,26 @@
+2025-04-19 18:51:25,864 - INFO - Starting W&B Run: fl_64_fo_half_fs_3_bs_64_ac_gelu with ID: 0duxawqh
+2025-04-19 18:51:25,864 - INFO - Run config: {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 512, 'dropout_rate': 0.3237206984062729, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.0016026557289148102, 'num_filters': 64}
+2025-04-19 18:51:25,867 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 18:51:25,868 - INFO - Seed set to 42
+2025-04-19 18:51:25,868 - INFO - Using device: cuda
+2025-04-19 18:51:25,869 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 18:51:25,869 - INFO - Using data augmentation for training.
+2025-04-19 18:51:25,872 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:51:26,604 - INFO - Loaded 9999 image paths in total.
+2025-04-19 18:51:26,607 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:51:26,930 - INFO - Loaded 2000 image paths in total.
+2025-04-19 18:51:26,930 - INFO - Number of classes: 10
+2025-04-19 18:51:26,935 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 18:51:26,939 - INFO - Data loaders created successfully.
+2025-04-19 18:51:26,939 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 18:51:26,941 - INFO - Building CustomCNN: filters=[64, 32, 16, 8, 4], sizes=[3, 3, 3, 3, 3], activation=gelu, dense=512, dropout=0.3237206984062729, bn=False
+2025-04-19 18:51:26,952 - INFO - Model created.
+2025-04-19 18:51:26,954 - INFO - Model Parameters: 132,326
+2025-04-19 18:51:26,955 - INFO - Estimated FLOPs (MACs*2): 166,873,664
+2025-04-19 18:51:26,957 - INFO - Starting training for 10 epochs...
+2025-04-19 18:53:50,241 - INFO - Ep 1/10 | Tr Loss: 2.2397, Tr Acc: 16.25% | Val Loss: 2.1880, Val Acc: 21.86% | LR: 0.001603 | Time: 143.10s                                                
+2025-04-19 18:56:12,680 - INFO - Ep 2/10 | Tr Loss: 2.1640, Tr Acc: 21.14% | Val Loss: 2.1213, Val Acc: 23.51% | LR: 0.001603 | Time: 142.27s                                                
+2025-04-19 18:58:45,133 - INFO - Ep 3/10 | Tr Loss: 2.1122, Tr Acc: 23.85% | Val Loss: 2.0716, Val Acc: 26.26% | LR: 0.001603 | Time: 152.28s                                                
+2025-04-19 19:01:13,757 - INFO - Ep 4/10 | Tr Loss: 2.0701, Tr Acc: 26.12% | Val Loss: 2.0632, Val Acc: 25.11% | LR: 0.001603 | Time: 148.42s                                                
+2025-04-19 19:03:46,346 - INFO - Ep 5/10 | Tr Loss: 2.0482, Tr Acc: 26.43% | Val Loss: 2.0483, Val Acc: 26.31% | LR: 0.001603 | Time: 152.42s                                                
+2025-04-19 19:03:46,349 - INFO - Run fl_64_fo_half_fs_3_bs_64_ac_gelu finished. Best val_acc: 26.31% at epoch 5

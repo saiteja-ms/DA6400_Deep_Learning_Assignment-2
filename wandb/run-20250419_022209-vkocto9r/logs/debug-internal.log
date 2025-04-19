@@ -1,0 +1,16 @@
+{"time":"2025-04-19T02:22:09.5130571+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_022209-vkocto9r\\logs\\debug-core.log"}
+{"time":"2025-04-19T02:22:10.2090877+05:30","level":"INFO","msg":"created new stream","id":"vkocto9r"}
+{"time":"2025-04-19T02:22:10.2096273+05:30","level":"INFO","msg":"stream: started","id":"vkocto9r"}
+{"time":"2025-04-19T02:22:10.2102088+05:30","level":"INFO","msg":"sender: started","stream_id":"vkocto9r"}
+{"time":"2025-04-19T02:22:10.2096273+05:30","level":"INFO","msg":"handler: started","stream_id":"vkocto9r"}
+{"time":"2025-04-19T02:22:10.2102088+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"vkocto9r"}
+{"time":"2025-04-19T02:22:10.8707307+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T02:24:34.6070497+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH/vkocto9r/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T02:24:41.1280437+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-19T02:24:42.2275094+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH/vkocto9r/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T02:24:51.6968823+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH/vkocto9r/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T02:25:05.9447875+05:30","level":"INFO","msg":"api: retrying HTTP error","status":500,"url":"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH/vkocto9r/file_stream","body":"{\"error\":\"context deadline exceeded\"}"}
+{"time":"2025-04-19T02:25:13.514248+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-19T02:26:16.3070055+05:30","level":"INFO","msg":"stream: closing","id":"vkocto9r"}
+{"time":"2025-04-19T02:26:16.3077315+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T02:26:16.3077315+05:30","level":"INFO","msg":"Stopped system monitor"}

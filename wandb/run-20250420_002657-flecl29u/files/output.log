@@ -1,0 +1,10 @@
+2025-04-20 00:26:58,455 - INFO - --- Training & Evaluating Best Config ---
+2025-04-20 00:26:58,455 - INFO - Config: {'num_filters': 64, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'mish', 'dense_neurons': 256, 'dropout_rate': 0.35, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.0005, 'weight_decay': 0.0005, 'batch_size': 32, 'epochs': 15}
+2025-04-20 00:26:58,473 - INFO - CUDA not available. Setting CPU seeds only.
+2025-04-20 00:26:58,474 - INFO - Seed set to 42
+2025-04-20 00:26:58,474 - INFO - Using device: cpu
+2025-04-20 00:26:58,475 - ERROR - Unhandled error in main function: get_data_loaders() got an unexpected keyword argument 'generator'
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\evaluate.py", line 177, in train_and_evaluate
+    train_loader, val_loader, test_loader, classes = get_data_loaders(
+TypeError: get_data_loaders() got an unexpected keyword argument 'generator'

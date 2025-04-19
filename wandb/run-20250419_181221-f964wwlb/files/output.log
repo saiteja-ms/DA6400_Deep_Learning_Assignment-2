@@ -1,0 +1,28 @@
+2025-04-19 18:12:22,796 - INFO - Starting W&B Run: fl_32_fo_double_fs_5_bs_64_ac_mish with ID: f964wwlb
+2025-04-19 18:12:22,797 - INFO - Run config: {'activation': 'mish', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.15528421332322084, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 5, 'learning_rate': 0.002747988715154347, 'num_filters': 32}
+2025-04-19 18:12:22,846 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 18:12:22,847 - INFO - Seed set to 42
+2025-04-19 18:12:22,847 - INFO - Using device: cuda
+2025-04-19 18:12:22,847 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0.2, img_size=224
+2025-04-19 18:12:22,847 - INFO - Data augmentation for training is disabled.
+2025-04-19 18:12:22,850 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:12:23,677 - INFO - Loaded 9999 image paths in total.
+2025-04-19 18:12:23,681 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 18:12:23,946 - INFO - Loaded 2000 image paths in total.
+2025-04-19 18:12:23,947 - INFO - Number of classes: 10
+2025-04-19 18:12:23,951 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 18:12:23,955 - INFO - Data loaders created successfully.
+2025-04-19 18:12:23,956 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 18:12:23,956 - INFO - Building CustomCNN: filters=[32, 64, 128, 256, 512], sizes=[5, 5, 5, 5, 5], activation=mish, dense=512, dropout=0.15528421332322084, bn=True
+2025-04-19 18:12:24,166 - INFO - Model created.
+2025-04-19 18:12:24,168 - INFO - Model Parameters: 17,207,082
+2025-04-19 18:12:24,168 - INFO - Estimated FLOPs (MACs*2): 1,373,528,064
+C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 18:12:24,171 - INFO - Starting training for 10 epochs...
+2025-04-19 18:15:51,689 - INFO - Ep 1/10 | Tr Loss: 4.3977, Tr Acc: 14.72% | Val Loss: 2.2186, Val Acc: 16.86% | LR: 0.002748 | Time: 207.52s                                                
+2025-04-19 18:20:31,972 - INFO - Ep 2/10 | Tr Loss: 2.1948, Tr Acc: 19.50% | Val Loss: 2.1612, Val Acc: 20.11% | LR: 0.002748 | Time: 280.14s                                                
+2025-04-19 18:25:36,465 - INFO - Ep 3/10 | Tr Loss: 2.1522, Tr Acc: 21.16% | Val Loss: 2.1246, Val Acc: 23.81% | LR: 0.002748 | Time: 304.32s                                                
+2025-04-19 18:29:49,245 - INFO - Ep 4/10 | Tr Loss: 2.1235, Tr Acc: 23.26% | Val Loss: 2.1125, Val Acc: 23.91% | LR: 0.002748 | Time: 252.63s                                                
+2025-04-19 18:34:01,621 - INFO - Ep 5/10 | Tr Loss: 2.0952, Tr Acc: 23.04% | Val Loss: 2.0839, Val Acc: 23.91% | LR: 0.002748 | Time: 252.22s                                                
+2025-04-19 18:34:01,623 - INFO - Run fl_32_fo_double_fs_5_bs_64_ac_mish finished. Best val_acc: 23.91% at epoch 4

@@ -1,0 +1,18 @@
+{"time":"2025-04-18T15:49:58.3615012+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_154958-cla0i6dg\\logs\\debug-core.log"}
+{"time":"2025-04-18T15:50:00.0982916+05:30","level":"INFO","msg":"created new stream","id":"cla0i6dg"}
+{"time":"2025-04-18T15:50:00.0990477+05:30","level":"INFO","msg":"stream: started","id":"cla0i6dg"}
+{"time":"2025-04-18T15:50:00.0990477+05:30","level":"INFO","msg":"sender: started","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:50:00.0990477+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:50:00.0990477+05:30","level":"INFO","msg":"handler: started","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:50:00.4817308+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T15:50:17.8739111+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:51016"}
+{"time":"2025-04-18T15:50:18.3101144+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:51016"}
+{"time":"2025-04-18T15:51:49.1695851+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T15:51:49.1695851+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T15:51:50.1905002+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.3596618,"progress":"26B/26B"},{"desc":"uploading config.yaml","runtime_seconds":0.084583,"progress":"862B/862B"}],"total_operations":2}}
+{"time":"2025-04-18T15:51:51.1268214+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T15:51:51.4823051+05:30","level":"INFO","msg":"stream: closing","id":"cla0i6dg"}
+{"time":"2025-04-18T15:51:51.4823051+05:30","level":"INFO","msg":"handler: closed","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:51:51.4823051+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:51:51.4823051+05:30","level":"INFO","msg":"sender: closed","stream_id":"cla0i6dg"}
+{"time":"2025-04-18T15:51:51.4834324+05:30","level":"INFO","msg":"stream: closed","id":"cla0i6dg"}

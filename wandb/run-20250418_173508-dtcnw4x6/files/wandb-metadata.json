@@ -1,0 +1,42 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.9.21",
+  "startedAt": "2025-04-18T12:05:08.530148Z",
+  "args": [
+    "--data_dir",
+    "inaturalist_12K"
+  ],
+  "program": "C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\part_A\\sweep.py",
+  "codePath": "part_A\\sweep.py",
+  "email": "me21b171@smail.iitm.ac.in",
+  "root": "C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2",
+  "host": "DESKTOP-EFCQNQI",
+  "executable": "C:\\Users\\DELL\\anaconda3\\envs\\CV\\python.exe",
+  "codePathLocal": "part_A\\sweep.py",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "425936809984",
+      "used": "357319909376"
+    }
+  },
+  "memory": {
+    "total": "16943685632"
+  },
+  "cpu": {
+    "count": 8,
+    "countLogical": 16
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2560,
+      "architecture": "Ampere"
+    }
+  ],
+  "cudaVersion": "12.7"
+}

@@ -1,0 +1,44 @@
+2025-04-19 03:57:41,734 - INFO - Starting W&B Run: hl_?_bs_64_ac_relu with ID: xpu3l40t
+2025-04-19 03:57:41,734 - INFO - Run config: {'activation': 'relu', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 256, 'dropout_rate': 0.38828655992877104, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 5, 'learning_rate': 0.006826835053332589, 'num_filters': 32}
+2025-04-19 03:57:41,736 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 03:57:41,736 - INFO - Seed set to 42
+2025-04-19 03:57:41,736 - INFO - Using device: cuda
+2025-04-19 03:57:41,737 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0.2, img_size=224
+2025-04-19 03:57:41,738 - INFO - Data augmentation for training is disabled.
+2025-04-19 03:57:41,739 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:57:42,431 - INFO - Loaded 9999 image paths in total.
+2025-04-19 03:57:42,432 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:57:42,557 - INFO - Loaded 2000 image paths in total.
+2025-04-19 03:57:42,557 - INFO - Number of classes: 10
+2025-04-19 03:57:42,560 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 03:57:42,563 - INFO - Data loaders created successfully.
+2025-04-19 03:57:42,563 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 03:57:42,563 - INFO - Building CustomCNN: filters=[32, 64, 128, 256, 512], sizes=[5, 5, 5, 5, 5], activation=relu, dense=256, dropout=0.38828655992877104, bn=True
+2025-04-19 03:57:42,662 - INFO - Model created.
+2025-04-19 03:57:42,663 - INFO - Model Parameters: 10,781,738
+2025-04-19 03:57:42,664 - INFO - Estimated FLOPs (MACs*2): 1,360,677,888
+2025-04-19 03:57:42,664 - INFO - Starting training for 10 epochs...
+2025-04-19 03:58:16,850 - ERROR - Error during training trial xpu3l40t: DataLoader worker (pid(s) 31944, 19512, 32316, 25900) exited unexpectedly                                            
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\utils\data\dataloader.py", line 1243, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\queue.py", line 179, in get
+    raise Empty
+_queue.Empty
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\sweep.py", line 117, in train_sweep_trial
+    for i, (inputs, labels) in enumerate(train_pbar):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\tqdm\std.py", line 1181, in __iter__
+    for obj in iterable:
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\utils\data\dataloader.py", line 701, in __next__
+    data = self._next_data()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\utils\data\dataloader.py", line 1448, in _next_data
+    idx, data = self._get_data()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\utils\data\dataloader.py", line 1402, in _get_data
+    success, data = self._try_get_data()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\utils\data\dataloader.py", line 1256, in _try_get_data
+    raise RuntimeError(
+RuntimeError: DataLoader worker (pid(s) 31944, 19512, 32316, 25900) exited unexpectedly

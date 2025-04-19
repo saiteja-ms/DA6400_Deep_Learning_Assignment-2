@@ -1,0 +1,17 @@
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_setup.py:_flush():67] Configure stats pid to 5340
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-18 20:05:12,160 INFO    MainThread:5340 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_200512-42nycasu\logs\debug.log
+2025-04-18 20:05:12,162 INFO    MainThread:5340 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_200512-42nycasu\logs\debug-internal.log
+2025-04-18 20:05:12,162 INFO    MainThread:5340 [wandb_init.py:init():781] calling init triggers
+2025-04-18 20:05:12,162 INFO    MainThread:5340 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'silu', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.5, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 7, 'learning_rate': 0.0001, 'num_filters': 32}
+config: {'data_dir': 'inaturalist_12K', 'num_filters': 32, 'filter_size': 7, 'filter_organization': 'half', 'activation': 'silu', 'dense_neurons': 512, 'dropout_rate': 0.5, 'batch_norm': False, 'data_augmentation': False, 'learning_rate': 0.0001, 'batch_size': 32, 'epochs': 10, '_wandb': {}}
+2025-04-18 20:05:12,162 INFO    MainThread:5340 [wandb_init.py:init():809] starting backend
+2025-04-18 20:05:12,162 INFO    MainThread:5340 [wandb_init.py:init():813] sending inform_init request
+2025-04-18 20:05:12,185 INFO    MainThread:5340 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-18 20:05:12,185 INFO    MainThread:5340 [wandb_init.py:init():823] backend started and connected
+2025-04-18 20:05:12,186 INFO    MainThread:5340 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'silu', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.5, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 7, 'learning_rate': 0.0001, 'num_filters': 32}
+2025-04-18 20:05:12,187 INFO    MainThread:5340 [wandb_init.py:init():915] updated telemetry
+2025-04-18 20:05:12,190 INFO    MainThread:5340 [wandb_init.py:init():939] communicating run to backend with 300.0 second timeout

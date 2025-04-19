@@ -1,0 +1,55 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 55
+            "3":
+                - 2
+                - 14
+                - 16
+                - 23
+                - 55
+            "4": 3.9.21
+            "5": 0.19.9
+            "8":
+                - 3
+                - 5
+            "12": 0.19.9
+            "13": windows-amd64
+activation:
+    value: relu
+batch_norm:
+    value: true
+batch_size:
+    value: 32
+data_augmentation:
+    value: true
+data_dir:
+    value: inaturalist_12K
+dense_neurons:
+    value: 128
+dropout_rate:
+    value: 0.2280956118639181
+epochs:
+    value: 15
+filter_organization:
+    value: double
+filter_size:
+    value: 3
+learning_rate:
+    value: 0.00029505890496402896
+num_filters:
+    value: 64
+num_workers:
+    value: 4
+wandb_project:
+    value: CNN-From-Scratch-Assignment
+wandb_run_id:
+    value: gemzeprv

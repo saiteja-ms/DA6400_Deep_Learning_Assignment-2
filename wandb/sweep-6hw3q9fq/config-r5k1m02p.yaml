@@ -1,0 +1,24 @@
+wandb_version: 1
+
+activation:
+  value: mish
+batch_norm:
+  value: true
+batch_size:
+  value: 64
+data_augmentation:
+  value: false
+dense_neurons:
+  value: 256
+dropout_rate:
+  value: 0.4804302929461616
+epochs:
+  value: 10
+filter_organization:
+  value: double
+filter_size:
+  value: 5
+learning_rate:
+  value: 0.0005729995853852264
+num_filters:
+  value: 64

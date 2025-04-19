@@ -1,0 +1,30 @@
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_setup.py:_flush():67] Configure stats pid to 32268
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_153256-q9gslk6l\logs\debug.log
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250418_153256-q9gslk6l\logs\debug-internal.log
+2025-04-18 15:32:56,291 INFO    Thread-10 :32268 [wandb_init.py:init():781] calling init triggers
+2025-04-18 15:32:56,292 INFO    Thread-10 :32268 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'silu', 'batch_norm': True, 'batch_size': 128, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.3, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 3, 'learning_rate': 0.0001, 'num_filters': 128}
+config: {'_wandb': {}}
+2025-04-18 15:32:56,292 INFO    Thread-10 :32268 [wandb_init.py:init():809] starting backend
+2025-04-18 15:32:56,292 INFO    Thread-10 :32268 [wandb_init.py:init():813] sending inform_init request
+2025-04-18 15:32:56,293 INFO    Thread-10 :32268 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-18 15:32:56,293 INFO    Thread-10 :32268 [wandb_init.py:init():823] backend started and connected
+2025-04-18 15:32:56,294 INFO    Thread-10 :32268 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'silu', 'batch_norm': True, 'batch_size': 128, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.3, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 3, 'learning_rate': 0.0001, 'num_filters': 128}
+2025-04-18 15:32:56,294 INFO    Thread-10 :32268 [wandb_init.py:init():915] updated telemetry
+2025-04-18 15:32:56,297 INFO    Thread-10 :32268 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-18 15:32:57,011 INFO    Thread-10 :32268 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-18 15:32:57,113 INFO    Thread-10 :32268 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-18 15:32:57,113 INFO    Thread-10 :32268 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-18 15:32:57,113 INFO    Thread-10 :32268 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-18 15:32:57,113 INFO    Thread-10 :32268 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-18 15:32:57,114 INFO    Thread-10 :32268 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-18 15:32:57,163 INFO    Thread-10 :32268 [wandb_run.py:_finish():2189] finishing run teja_sai-indian-institute-of-technology-madras/CNN-From-Scratch/q9gslk6l
+2025-04-18 15:32:57,164 INFO    Thread-10 :32268 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-18 15:32:57,165 INFO    Thread-10 :32268 [wandb_run.py:_restore():2401] restore
+2025-04-18 15:32:57,165 INFO    Thread-10 :32268 [wandb_run.py:_restore():2407] restore done
+2025-04-18 15:32:58,929 INFO    Thread-10 :32268 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-18 15:32:58,929 INFO    Thread-10 :32268 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-18 15:32:58,929 INFO    Thread-10 :32268 [wandb_run.py:_footer_sync_info():4025] logging synced files

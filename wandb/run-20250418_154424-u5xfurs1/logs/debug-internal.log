@@ -1,0 +1,18 @@
+{"time":"2025-04-18T15:44:24.6403971+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_154424-u5xfurs1\\logs\\debug-core.log"}
+{"time":"2025-04-18T15:44:25.039881+05:30","level":"INFO","msg":"created new stream","id":"u5xfurs1"}
+{"time":"2025-04-18T15:44:25.039881+05:30","level":"INFO","msg":"stream: started","id":"u5xfurs1"}
+{"time":"2025-04-18T15:44:25.039881+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:44:25.039881+05:30","level":"INFO","msg":"handler: started","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:44:25.039881+05:30","level":"INFO","msg":"sender: started","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:44:25.3312876+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T15:44:32.0655479+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50117"}
+{"time":"2025-04-18T15:44:32.4937831+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50117"}
+{"time":"2025-04-18T15:46:02.0910338+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T15:46:02.0910338+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T15:46:03.1122849+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1341069,"progress":"864B/864B"}],"total_operations":1}}
+{"time":"2025-04-18T15:46:03.3689783+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T15:46:03.657825+05:30","level":"INFO","msg":"stream: closing","id":"u5xfurs1"}
+{"time":"2025-04-18T15:46:03.657825+05:30","level":"INFO","msg":"handler: closed","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:46:03.657825+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:46:03.657825+05:30","level":"INFO","msg":"sender: closed","stream_id":"u5xfurs1"}
+{"time":"2025-04-18T15:46:03.6583679+05:30","level":"INFO","msg":"stream: closed","id":"u5xfurs1"}

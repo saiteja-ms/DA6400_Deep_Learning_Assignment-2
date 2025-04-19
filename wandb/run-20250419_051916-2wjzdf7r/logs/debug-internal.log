@@ -1,0 +1,11 @@
+{"time":"2025-04-19T05:19:16.393447+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_051916-2wjzdf7r\\logs\\debug-core.log"}
+{"time":"2025-04-19T05:19:16.8008171+05:30","level":"INFO","msg":"created new stream","id":"2wjzdf7r"}
+{"time":"2025-04-19T05:19:16.8008171+05:30","level":"INFO","msg":"stream: started","id":"2wjzdf7r"}
+{"time":"2025-04-19T05:19:16.8008171+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"2wjzdf7r"}
+{"time":"2025-04-19T05:19:16.8008171+05:30","level":"INFO","msg":"sender: started","stream_id":"2wjzdf7r"}
+{"time":"2025-04-19T05:19:16.8008171+05:30","level":"INFO","msg":"handler: started","stream_id":"2wjzdf7r"}
+{"time":"2025-04-19T05:19:17.1268924+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T09:42:27.5994252+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/2wjzdf7r/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:16.995501+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/2wjzdf7r/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:21.0581558+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/2wjzdf7r/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:31.8861687+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.22.17.126:54483->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}

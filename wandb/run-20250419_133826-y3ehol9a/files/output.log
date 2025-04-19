@@ -1,0 +1,23 @@
+2025-04-19 13:38:27,390 - INFO - Starting W&B Run: fl_64_fo_double_fs_5_bs_64_ac_mish with ID: y3ehol9a
+2025-04-19 13:38:27,390 - INFO - Run config: {'activation': 'mish', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.3737240074610531, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 5, 'learning_rate': 0.002627405510644801, 'num_filters': 64}
+2025-04-19 13:38:27,477 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 13:38:27,478 - INFO - Seed set to 42
+2025-04-19 13:38:27,479 - INFO - Using device: cuda
+2025-04-19 13:38:27,480 - INFO - Setting up data loaders: batch_size=64, augment=False, val_split=0.2, img_size=224
+2025-04-19 13:38:27,480 - INFO - Data augmentation for training is disabled.
+2025-04-19 13:38:27,481 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 13:38:28,449 - INFO - Loaded 9999 image paths in total.
+2025-04-19 13:38:28,451 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 13:38:28,708 - INFO - Loaded 2000 image paths in total.
+2025-04-19 13:38:28,708 - INFO - Number of classes: 10
+2025-04-19 13:38:28,712 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 13:38:28,717 - INFO - Data loaders created successfully.
+2025-04-19 13:38:28,718 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 13:38:28,718 - INFO - Building CustomCNN: filters=[64, 128, 256, 512, 1024], sizes=[5, 5, 5, 5, 5], activation=mish, dense=512, dropout=0.3737240074610531, bn=True
+2025-04-19 13:38:29,784 - INFO - Model created.
+2025-04-19 13:38:29,785 - INFO - Model Parameters: 43,112,522
+2025-04-19 13:38:29,786 - INFO - Estimated FLOPs (MACs*2): 5,316,057,088
+C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 13:38:29,789 - INFO - Starting training for 10 epochs...
+Epoch 1/10 [Train]:   2%| | 3/125 [1:08:13<47:58:37, 1415.71s/it, Loss=2.3792, Acc

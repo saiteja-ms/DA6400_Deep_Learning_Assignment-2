@@ -1,0 +1,18 @@
+{"time":"2025-04-18T20:16:36.0108189+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_201635-n65ebh3v\\logs\\debug-core.log"}
+{"time":"2025-04-18T20:16:36.4191018+05:30","level":"INFO","msg":"created new stream","id":"n65ebh3v"}
+{"time":"2025-04-18T20:16:36.4191018+05:30","level":"INFO","msg":"stream: started","id":"n65ebh3v"}
+{"time":"2025-04-18T20:16:36.4196756+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:16:36.4196756+05:30","level":"INFO","msg":"handler: started","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:16:36.4196756+05:30","level":"INFO","msg":"sender: started","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:16:36.7515719+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T20:16:44.2539071+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60305"}
+{"time":"2025-04-18T20:16:44.7027277+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60305"}
+{"time":"2025-04-18T20:21:44.2476231+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T20:21:44.2476231+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T20:21:45.2620159+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4432612,"progress":"108B/108B"},{"desc":"uploading config.yaml","runtime_seconds":0.1725417,"progress":"940B/940B"}],"total_operations":2}}
+{"time":"2025-04-18T20:21:46.1853295+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T20:21:46.4713001+05:30","level":"INFO","msg":"stream: closing","id":"n65ebh3v"}
+{"time":"2025-04-18T20:21:46.4713001+05:30","level":"INFO","msg":"handler: closed","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:21:46.4713001+05:30","level":"INFO","msg":"sender: closed","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:21:46.4713001+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"n65ebh3v"}
+{"time":"2025-04-18T20:21:46.4718073+05:30","level":"INFO","msg":"stream: closed","id":"n65ebh3v"}

@@ -1,0 +1,17 @@
+{"time":"2025-04-19T19:42:56.0362107+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_194255-cvxbsro3\\logs\\debug-core.log"}
+{"time":"2025-04-19T19:42:56.4510987+05:30","level":"INFO","msg":"created new stream","id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:56.4510987+05:30","level":"INFO","msg":"stream: started","id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:56.451703+05:30","level":"INFO","msg":"handler: started","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:56.451703+05:30","level":"INFO","msg":"sender: started","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:56.451703+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:56.7787028+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T19:42:56.7787028+05:30","level":"ERROR","msg":"sender: upsertRun:","error":"failed to upsert bucket: returned error 404: {\"data\":{\"upsertBucket\":null},\"errors\":[{\"message\":\"sweep 6hw3q9fq not found\",\"path\":[\"upsertBucket\"]}]}"}
+{"time":"2025-04-19T19:42:57.7821232+05:30","level":"INFO","msg":"stream: closing","id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:57.7821232+05:30","level":"ERROR","msg":"sender: upsertConfig: RunRecord is nil"}
+{"time":"2025-04-19T19:42:58.0880573+05:30","level":"ERROR","msg":"HTTP error","status":404,"method":"POST","url":"https://api.wandb.ai/graphql"}
+{"time":"2025-04-19T19:42:58.0880573+05:30","level":"ERROR","msg":"runfiles: CreateRunFiles returned error: returned error 404: {\"data\":{\"createRunFiles\":null},\"errors\":[{\"message\":\"project /uncategorized not found during createRunFiles\",\"path\":[\"createRunFiles\"]}]}"}
+{"time":"2025-04-19T19:42:58.0891303+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T19:42:58.0891303+05:30","level":"INFO","msg":"handler: closed","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:58.0891303+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:58.0891303+05:30","level":"INFO","msg":"sender: closed","stream_id":"cvxbsro3"}
+{"time":"2025-04-19T19:42:58.0891303+05:30","level":"INFO","msg":"stream: closed","id":"cvxbsro3"}

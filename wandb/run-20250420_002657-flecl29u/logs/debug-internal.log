@@ -1,0 +1,16 @@
+{"time":"2025-04-20T00:26:57.2145958+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250420_002657-flecl29u\\logs\\debug-core.log"}
+{"time":"2025-04-20T00:26:57.9385731+05:30","level":"INFO","msg":"created new stream","id":"flecl29u"}
+{"time":"2025-04-20T00:26:57.9391426+05:30","level":"INFO","msg":"stream: started","id":"flecl29u"}
+{"time":"2025-04-20T00:26:57.9391426+05:30","level":"INFO","msg":"handler: started","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:26:57.9397046+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:26:57.9397046+05:30","level":"INFO","msg":"sender: started","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:26:58.3182458+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-20T00:26:58.4768073+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-20T00:26:58.4768073+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-20T00:26:59.4816383+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading requirements.txt","runtime_seconds":0.7154091,"progress":"868B/868B"},{"desc":"uploading wandb-metadata.json","runtime_seconds":0.4110421,"progress":"1.4KB/1.4KB"},{"desc":"uploading output.log","runtime_seconds":0.0740269,"progress":"995B/995B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.0740269,"progress":"24B/24B"}],"total_operations":4}}
+{"time":"2025-04-20T00:27:00.7825168+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-20T00:27:01.1104336+05:30","level":"INFO","msg":"stream: closing","id":"flecl29u"}
+{"time":"2025-04-20T00:27:01.1104336+05:30","level":"INFO","msg":"handler: closed","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:27:01.1104336+05:30","level":"INFO","msg":"sender: closed","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:27:01.1104336+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"flecl29u"}
+{"time":"2025-04-20T00:27:01.1104336+05:30","level":"INFO","msg":"stream: closed","id":"flecl29u"}

@@ -1,0 +1,16 @@
+{"time":"2025-04-19T05:08:06.5635373+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_050806-q4aqip11\\logs\\debug-core.log"}
+{"time":"2025-04-19T05:08:06.9719634+05:30","level":"INFO","msg":"created new stream","id":"q4aqip11"}
+{"time":"2025-04-19T05:08:06.9719634+05:30","level":"INFO","msg":"stream: started","id":"q4aqip11"}
+{"time":"2025-04-19T05:08:06.9719634+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"q4aqip11"}
+{"time":"2025-04-19T05:08:06.9725675+05:30","level":"INFO","msg":"handler: started","stream_id":"q4aqip11"}
+{"time":"2025-04-19T05:08:06.9725675+05:30","level":"INFO","msg":"sender: started","stream_id":"q4aqip11"}
+{"time":"2025-04-19T05:08:07.2520977+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T09:42:24.3535585+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": write tcp 10.22.17.126:54524->35.186.228.49:443: wsasend: An established connection was aborted by the software in your host machine."}
+{"time":"2025-04-19T09:42:26.4605339+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:42:27.3289261+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/q4aqip11/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:16.5118785+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/q4aqip11/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:17.0117156+05:30","level":"WARN","msg":"sender: taking a long time","seconds":1012.1587452,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"rbz5nm0czkra\" connection_id:\"127.0.0.1:52039\")"}
+{"time":"2025-04-19T09:59:17.0158777+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:21.1723622+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/q4aqip11/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:26.9290613+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-04-19T09:59:44.8390924+05:30","level":"INFO","msg":"sender: succeeded after taking longer than expected","seconds":1040.4913793,"work":"WorkRecord(*service_go_proto.Request_StopStatus); Control(local:true mailbox_slot:\"rbz5nm0czkra\" connection_id:\"127.0.0.1:52039\")"}

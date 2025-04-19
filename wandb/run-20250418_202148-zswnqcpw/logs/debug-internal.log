@@ -1,0 +1,9 @@
+{"time":"2025-04-18T20:21:48.3231741+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_202148-zswnqcpw\\logs\\debug-core.log"}
+{"time":"2025-04-18T20:21:48.7319015+05:30","level":"INFO","msg":"created new stream","id":"zswnqcpw"}
+{"time":"2025-04-18T20:21:48.7319015+05:30","level":"INFO","msg":"stream: started","id":"zswnqcpw"}
+{"time":"2025-04-18T20:21:48.7319015+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"zswnqcpw"}
+{"time":"2025-04-18T20:21:48.7319015+05:30","level":"INFO","msg":"sender: started","stream_id":"zswnqcpw"}
+{"time":"2025-04-18T20:21:48.7319015+05:30","level":"INFO","msg":"handler: started","stream_id":"zswnqcpw"}
+{"time":"2025-04-18T20:21:49.0474348+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T20:21:56.7683208+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60601"}
+{"time":"2025-04-18T20:21:57.2193728+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60601"}

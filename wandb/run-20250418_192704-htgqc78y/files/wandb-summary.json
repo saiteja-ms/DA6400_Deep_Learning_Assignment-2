@@ -1,0 +1,1 @@
+{"epoch":2,"val_loss":2.3038023710250854,"train_accuracy":9.401175146893362,"gpu_memory_allocated":0.3117680549621582,"train_loss":2.3037981758117674,"_wandb":{"runtime":1188},"_timestamp":1.744985465161341e+09,"_runtime":840.3424804,"using_gpu":true,"_step":7,"total_parameters":19122442,"total_flops":959367680,"gpu_memory_cached":5.6171875,"val_accuracy":10}

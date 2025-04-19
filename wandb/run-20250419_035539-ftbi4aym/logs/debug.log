@@ -1,0 +1,31 @@
+2025-04-19 03:55:39,568 INFO    Thread-7  :14236 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_setup.py:_flush():67] Configure stats pid to 14236
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_035539-ftbi4aym\logs\debug.log
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_035539-ftbi4aym\logs\debug-internal.log
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_init.py:init():781] calling init triggers
+2025-04-19 03:55:39,569 INFO    Thread-7  :14236 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'silu', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 256, 'dropout_rate': 0.330672270662158, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 5, 'learning_rate': 0.001458671611174068, 'num_filters': 32}
+config: {'_wandb': {}}
+2025-04-19 03:55:39,570 INFO    Thread-7  :14236 [wandb_init.py:init():809] starting backend
+2025-04-19 03:55:39,570 INFO    Thread-7  :14236 [wandb_init.py:init():813] sending inform_init request
+2025-04-19 03:55:39,612 INFO    Thread-7  :14236 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-19 03:55:39,612 INFO    Thread-7  :14236 [wandb_init.py:init():823] backend started and connected
+2025-04-19 03:55:39,614 INFO    Thread-7  :14236 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'silu', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 256, 'dropout_rate': 0.330672270662158, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 5, 'learning_rate': 0.001458671611174068, 'num_filters': 32}
+2025-04-19 03:55:39,616 INFO    Thread-7  :14236 [wandb_init.py:init():915] updated telemetry
+2025-04-19 03:55:39,620 INFO    Thread-7  :14236 [wandb_init.py:init():939] communicating run to backend with 300.0 second timeout
+2025-04-19 03:55:40,653 INFO    Thread-7  :14236 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-19 03:55:40,767 INFO    Thread-7  :14236 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-19 03:55:40,767 INFO    Thread-7  :14236 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-19 03:55:40,768 INFO    Thread-7  :14236 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-19 03:55:40,768 INFO    Thread-7  :14236 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-19 03:55:40,773 INFO    Thread-7  :14236 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-19 03:55:42,980 INFO    Thread-7  :14236 [wandb_watch.py:_watch():71] Watching
+2025-04-19 03:57:34,598 INFO    Thread-7  :14236 [wandb_run.py:_finish():2189] finishing run teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/ftbi4aym
+2025-04-19 03:57:34,598 INFO    Thread-7  :14236 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 1
+2025-04-19 03:57:34,598 INFO    Thread-7  :14236 [wandb_run.py:_restore():2401] restore
+2025-04-19 03:57:34,599 INFO    Thread-7  :14236 [wandb_run.py:_restore():2407] restore done
+2025-04-19 03:57:36,859 INFO    Thread-7  :14236 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-19 03:57:36,859 INFO    Thread-7  :14236 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-19 03:57:36,860 INFO    Thread-7  :14236 [wandb_run.py:_footer_sync_info():4025] logging synced files

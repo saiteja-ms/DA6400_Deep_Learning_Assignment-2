@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 156, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 27, in train_model
+    train_loader, val_loader, _, classes = get_data_loaders(
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 65, in get_data_loaders
+    full_dataset = iNaturalistDataset(root_dir=train_dir, transform=train_transform)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\dataset.py", line 20, in __init__
+    for img_name in os.listdir(class_dir):
+NotADirectoryError: [WinError 267] The directory name is invalid: 'inaturalist_12K\\train\\.DS_Store'

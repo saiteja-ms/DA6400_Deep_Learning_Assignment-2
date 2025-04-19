@@ -1,0 +1,9 @@
+{"time":"2025-04-19T03:30:08.3285243+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_033008-3pmvgwcv\\logs\\debug-core.log"}
+{"time":"2025-04-19T03:30:09.8096437+05:30","level":"INFO","msg":"created new stream","id":"3pmvgwcv"}
+{"time":"2025-04-19T03:30:09.8103824+05:30","level":"INFO","msg":"stream: started","id":"3pmvgwcv"}
+{"time":"2025-04-19T03:30:09.8103824+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"3pmvgwcv"}
+{"time":"2025-04-19T03:30:09.8103824+05:30","level":"INFO","msg":"sender: started","stream_id":"3pmvgwcv"}
+{"time":"2025-04-19T03:30:09.8103824+05:30","level":"INFO","msg":"handler: started","stream_id":"3pmvgwcv"}
+{"time":"2025-04-19T03:30:10.1346567+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T03:30:22.7400493+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53230"}
+{"time":"2025-04-19T03:30:23.2090948+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53230"}

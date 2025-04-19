@@ -1,0 +1,9 @@
+{"time":"2025-04-19T03:12:13.1572759+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_031213-hjjb8y58\\logs\\debug-core.log"}
+{"time":"2025-04-19T03:12:21.0875292+05:30","level":"INFO","msg":"created new stream","id":"hjjb8y58"}
+{"time":"2025-04-19T03:12:21.0875292+05:30","level":"INFO","msg":"stream: started","id":"hjjb8y58"}
+{"time":"2025-04-19T03:12:21.0875292+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"hjjb8y58"}
+{"time":"2025-04-19T03:12:21.0875292+05:30","level":"INFO","msg":"sender: started","stream_id":"hjjb8y58"}
+{"time":"2025-04-19T03:12:21.0875292+05:30","level":"INFO","msg":"handler: started","stream_id":"hjjb8y58"}
+{"time":"2025-04-19T03:12:31.8918087+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T03:12:39.7908545+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52796"}
+{"time":"2025-04-19T03:12:40.2006668+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52796"}

@@ -1,0 +1,58 @@
+_wandb:
+    value:
+        cli_version: 0.19.9
+        m: []
+        python_version: 3.9.21
+        t:
+            "1":
+                - 1
+                - 41
+                - 55
+            "2":
+                - 1
+                - 41
+                - 55
+            "3":
+                - 2
+                - 16
+                - 23
+                - 55
+            "4": 3.9.21
+            "5": 0.19.9
+            "8":
+                - 3
+                - 5
+            "12": 0.19.9
+            "13": windows-amd64
+activation:
+    value: mish
+batch_norm:
+    value: true
+batch_size:
+    value: 64
+data_dir:
+    value: inaturalist_12K
+dense_neurons:
+    value: 256
+dropout_rate:
+    value: 0.5
+filter_organization:
+    value: double
+filter_size_base:
+    value: 3
+grid_cols:
+    value: 3
+grid_rows:
+    value: 10
+img_size:
+    value: 224
+model_path:
+    value: C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\output
+num_filters_base:
+    value: 64
+num_workers:
+    value: 4
+seed:
+    value: 42
+wandb_project:
+    value: CNN_FROM_SCRATCH_SWEEP

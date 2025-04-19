@@ -1,0 +1,28 @@
+2025-04-19 05:08:07,371 - INFO - Starting W&B Run: hl_?_bs_32_ac_mish with ID: q4aqip11
+2025-04-19 05:08:07,371 - INFO - Run config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.2853890669827035, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.00030173518928828825, 'num_filters': 64}
+2025-04-19 05:08:07,373 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 05:08:07,374 - INFO - Seed set to 42
+2025-04-19 05:08:07,374 - INFO - Using device: cuda
+2025-04-19 05:08:07,374 - INFO - Setting up data loaders: batch_size=32, augment=False, val_split=0.2, img_size=224
+2025-04-19 05:08:07,374 - INFO - Data augmentation for training is disabled.
+2025-04-19 05:08:07,375 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 05:08:08,023 - INFO - Loaded 9999 image paths in total.
+2025-04-19 05:08:08,026 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 05:08:08,314 - INFO - Loaded 2000 image paths in total.
+2025-04-19 05:08:08,315 - INFO - Number of classes: 10
+2025-04-19 05:08:08,318 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 05:08:08,321 - INFO - Data loaders created successfully.
+2025-04-19 05:08:08,322 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 05:08:08,322 - INFO - Building CustomCNN: filters=[64, 32, 16, 8, 4], sizes=[3, 3, 3, 3, 3], activation=mish, dense=512, dropout=0.2853890669827035, bn=False
+2025-04-19 05:08:08,328 - INFO - Model created.
+2025-04-19 05:08:08,329 - INFO - Model Parameters: 132,326
+2025-04-19 05:08:08,329 - INFO - Estimated FLOPs (MACs*2): 166,873,664
+2025-04-19 05:08:08,330 - INFO - Starting training for 10 epochs...
+2025-04-19 05:09:30,834 - INFO - Ep 1/10 | Tr Loss: 2.2663, Tr Acc: 14.34% | Val Loss: 2.2452, Val Acc: 20.16% | LR: 0.000302 | Time: 82.50s                                                 
+2025-04-19 05:10:50,988 - INFO - Ep 2/10 | Tr Loss: 2.1702, Tr Acc: 21.41% | Val Loss: 2.1466, Val Acc: 23.71% | LR: 0.000302 | Time: 80.15s                                                 
+2025-04-19 05:12:19,918 - INFO - Ep 3/10 | Tr Loss: 2.1056, Tr Acc: 23.61% | Val Loss: 2.0879, Val Acc: 26.26% | LR: 0.000302 | Time: 88.93s                                                 
+2025-04-19 05:13:49,409 - INFO - Ep 4/10 | Tr Loss: 2.0627, Tr Acc: 25.48% | Val Loss: 2.0596, Val Acc: 24.76% | LR: 0.000302 | Time: 89.49s                                                 
+2025-04-19 05:15:17,412 - INFO - Ep 5/10 | Tr Loss: 2.0138, Tr Acc: 27.74% | Val Loss: 2.0215, Val Acc: 27.51% | LR: 0.000302 | Time: 88.00s                                                 
+2025-04-19 05:16:39,592 - INFO - Ep 6/10 | Tr Loss: 1.9836, Tr Acc: 28.95% | Val Loss: 2.0144, Val Acc: 28.61% | LR: 0.000302 | Time: 82.18s                                                 
+2025-04-19 05:18:03,934 - INFO - Ep 7/10 | Tr Loss: 1.9537, Tr Acc: 30.29% | Val Loss: 1.9932, Val Acc: 29.41% | LR: 0.000302 | Time: 84.34s                                                 
+Epoch 8/10 [Train]:   0%|                                                                                                                                            | 0/250 [00:00<?, ?it/s][34m[1mwandb[0m: Network error (ConnectionError), entering retry loop.

@@ -1,0 +1,89 @@
+2025-04-19 03:24:52,616 - INFO - Agent starting run 7loc73m2 with config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.17643730010086656, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.0010487932829924694, 'num_filters': 64}
+2025-04-19 03:24:52,617 - INFO - Executing command: C:\Users\DELL\anaconda3\envs\CV\python.exe C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py --data_dir inaturalist_12K --seed 42 --img_size 224 --num_workers 4 --val_split 0.2 --wandb_project CNN-iNaturalist-Scratch-Sweep --wandb_run_id 7loc73m2 --num_filters 64 --filter_size 3 --filter_organization half --activation mish --dense_neurons 128 --dropout_rate 0.17643730010086656 --batch_norm False --data_augmentation True --learning_rate 0.0010487932829924694 --batch_size 64 --epochs 10
+2025-04-19 03:30:01,052 - ERROR - Training script failed for run 7loc73m2 with exit code 1
+2025-04-19 03:30:01,053 - ERROR - Stdout:
+2025-04-19 03:30:01,055 - ERROR - Stderr: 2025-04-19 03:24:58,631 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 03:24:58,631 - INFO - Seed set to 42
+wandb: Currently logged in as: teja_sai (teja_sai-indian-institute-of-technology-madras) to https://api.wandb.ai. Use `wandb login --relogin` to force relogin
+wandb: WARNING Ignoring project 'CNN-iNaturalist-Scratch-Sweep' when running a sweep.
+wandb: WARNING Ignoring run_id '7loc73m2' when running a sweep.
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\asyncio\locks.py", line 226, in wait
+    await fut
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\asyncio\tasks.py", line 490, in wait_for
+    return fut.result()
+asyncio.exceptions.CancelledError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\response_handle.py", line 109, in wait_async
+    await asyncio.wait_for(evt.wait(), timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\asyncio\tasks.py", line 492, in wait_for
+    raise exceptions.TimeoutError() from exc
+asyncio.exceptions.TimeoutError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\wandb_init.py", line 965, in init
+    result = wait_with_progress(
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 30, in run
+    return future.result()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\concurrent\futures\_base.py", line 446, in result
+    return self.__get_result()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\concurrent\futures\_base.py", line 391, in __get_result
+    raise self._exception
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\concurrent\futures\thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 74, in run
+    return asyncio.run(self._run_or_cancel(fn))
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\asyncio\runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\asyncio\base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 98, in _run_or_cancel
+    return fn_task.result()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 82, in progress_loop_with_timeout
+    return await _wait_handles_async(
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 132, in _wait_handles_async
+    task_group.start_soon(wait_single(index))
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\contextlib.py", line 188, in __aexit__
+    await self.gen.__anext__()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 190, in open_task_group
+    await task_group._wait_all()
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\lib\asyncio_compat.py", line 159, in _wait_all
+    raise exc
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 128, in wait_single
+    results[index] = await handle.wait_async(timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\mailbox_handle.py", line 126, in wait_async
+    response = await self._handle.wait_async(timeout=timeout)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\mailbox\response_handle.py", line 118, in wait_async
+    raise TimeoutError(
+TimeoutError: Timed out waiting for response on zd0yit1nyclo
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 291, in <module>
+    train_model(args)
+  File "C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\part_A\train.py", line 25, in train_model
+    run = wandb.init(
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\wandb_init.py", line 1544, in init
+    wandb._sentry.reraise(e)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\analytics\sentry.py", line 156, in reraise
+    raise exc.with_traceback(sys.exc_info()[2])
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\wandb_init.py", line 1530, in init
+    return wi.init(run_settings, run_config)
+  File "C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\wandb\sdk\wandb_init.py", line 978, in init
+    raise CommError(
+wandb.errors.errors.CommError: Run initialization has timed out after 300.0 sec. Please try increasing the timeout with the `init_timeout` setting: `wandb.init(settings=wandb.Settings(init_timeout=120))`.

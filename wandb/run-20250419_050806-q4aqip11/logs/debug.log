@@ -1,0 +1,84 @@
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_setup.py:_flush():67] Configure stats pid to 7320
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\.config\wandb\settings
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_setup.py:_flush():67] Loading settings from C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\settings
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-19 05:08:06,557 INFO    Thread-31 :7320 [wandb_init.py:setup_run_log_directory():662] Logging user logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_050806-q4aqip11\logs\debug.log
+2025-04-19 05:08:06,558 INFO    Thread-31 :7320 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to C:\Users\DELL\Documents\SEMESTER 8\Deep Learning\Assignment_2\wandb\run-20250419_050806-q4aqip11\logs\debug-internal.log
+2025-04-19 05:08:06,558 INFO    Thread-31 :7320 [wandb_init.py:init():781] calling init triggers
+2025-04-19 05:08:06,558 INFO    Thread-31 :7320 [wandb_init.py:init():786] wandb.init called with sweep_config: {'activation': 'mish', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.2853890669827035, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.00030173518928828825, 'num_filters': 64}
+config: {'_wandb': {}}
+2025-04-19 05:08:06,558 INFO    Thread-31 :7320 [wandb_init.py:init():809] starting backend
+2025-04-19 05:08:06,558 INFO    Thread-31 :7320 [wandb_init.py:init():813] sending inform_init request
+2025-04-19 05:08:06,560 INFO    Thread-31 :7320 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-04-19 05:08:06,560 INFO    Thread-31 :7320 [wandb_init.py:init():823] backend started and connected
+2025-04-19 05:08:06,561 INFO    Thread-31 :7320 [wandb_run.py:_config_callback():1327] config_cb None None {'activation': 'mish', 'batch_norm': False, 'batch_size': 32, 'data_augmentation': False, 'dense_neurons': 512, 'dropout_rate': 0.2853890669827035, 'epochs': 10, 'filter_organization': 'half', 'filter_size': 3, 'learning_rate': 0.00030173518928828825, 'num_filters': 64}
+2025-04-19 05:08:06,562 INFO    Thread-31 :7320 [wandb_init.py:init():915] updated telemetry
+2025-04-19 05:08:06,565 INFO    Thread-31 :7320 [wandb_init.py:init():939] communicating run to backend with 300.0 second timeout
+2025-04-19 05:08:07,248 INFO    Thread-31 :7320 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-19 05:08:07,370 INFO    Thread-31 :7320 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-19 05:08:07,370 INFO    Thread-31 :7320 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-19 05:08:07,370 INFO    Thread-31 :7320 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-19 05:08:07,370 INFO    Thread-31 :7320 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-19 05:08:07,371 INFO    Thread-31 :7320 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-19 05:08:08,329 INFO    Thread-31 :7320 [wandb_watch.py:_watch():71] Watching
+2025-04-19 09:42:26,454 INFO    Thread-6  :7320 [retry.py:__call__():175] [no run ID] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\socket.py", line 966, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connection.py", line 704, in connect
+    self.sock = sock = self._new_conn()
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000025306835CA0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025306835CA0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\wandb\sdk\internal\internal_api.py", line 402, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\requests\adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000025306835CA0>: Failed to resolve 'api.wandb.ai' ([Errno 11001] getaddrinfo failed)"))

@@ -1,0 +1,18 @@
+{"time":"2025-04-19T02:32:59.1637742+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250419_023259-g9q8ich3\\logs\\debug-core.log"}
+{"time":"2025-04-19T02:33:00.7481301+05:30","level":"INFO","msg":"created new stream","id":"g9q8ich3"}
+{"time":"2025-04-19T02:33:00.7481301+05:30","level":"INFO","msg":"stream: started","id":"g9q8ich3"}
+{"time":"2025-04-19T02:33:00.7481301+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:33:00.7481301+05:30","level":"INFO","msg":"sender: started","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:33:00.7481301+05:30","level":"INFO","msg":"handler: started","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:33:01.1076336+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-19T02:33:17.980645+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60322"}
+{"time":"2025-04-19T02:33:18.0533312+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:60322"}
+{"time":"2025-04-19T02:34:48.5357404+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-19T02:34:48.5357404+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-19T02:34:49.5470022+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.3739685,"progress":"26B/26B"},{"desc":"uploading output.log","runtime_seconds":0.3739685,"progress":"6.4KB/6.4KB"},{"desc":"uploading config.yaml","runtime_seconds":0.0623969,"progress":"1.1KB/1.1KB"}],"total_operations":3}}
+{"time":"2025-04-19T02:34:50.4650176+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-19T02:34:50.8242086+05:30","level":"INFO","msg":"stream: closing","id":"g9q8ich3"}
+{"time":"2025-04-19T02:34:50.8242086+05:30","level":"INFO","msg":"handler: closed","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:34:50.8242086+05:30","level":"INFO","msg":"sender: closed","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:34:50.8242086+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"g9q8ich3"}
+{"time":"2025-04-19T02:34:50.8247241+05:30","level":"INFO","msg":"stream: closed","id":"g9q8ich3"}

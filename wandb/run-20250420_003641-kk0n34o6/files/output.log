@@ -1,0 +1,28 @@
+2025-04-20 00:36:42,823 - INFO - Wandb run initialized. ID: kk0n34o6, Name: eager-glade-162
+2025-04-20 00:36:42,824 - INFO - Run config: {'data_dir': 'inaturalist_12K', 'seed': 42, 'img_size': 224, 'num_workers': 4, 'val_split': 0.2, 'wandb_project': 'CNN_FROM_SCRATCH_SWEEP', 'wandb_run_id': None, 'num_filters': 64, 'filter_size': 3, 'filter_organization': 'same', 'activation': 'relu', 'dense_neurons': 256, 'dropout_rate': 0.5, 'batch_norm': True, 'data_augmentation': True, 'learning_rate': 0.001, 'batch_size': 32, 'epochs': 15}
+2025-04-20 00:36:42,832 - INFO - CUDA is available. Using GPU: NVIDIA GeForce RTX 3050 Ti Laptop GPU
+2025-04-20 00:36:42,833 - INFO - Setting up data loaders: batch_size=32, augment=True, val_split=0.2, img_size=224
+2025-04-20 00:36:42,834 - INFO - Using data augmentation for training.
+2025-04-20 00:36:42,835 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 00:36:43,456 - INFO - Loaded 9999 image paths in total.
+2025-04-20 00:36:43,457 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-20 00:36:43,572 - INFO - Loaded 2000 image paths in total.
+2025-04-20 00:36:43,572 - INFO - Number of classes: 10
+2025-04-20 00:36:43,575 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-20 00:36:43,578 - INFO - Data loaders created successfully.
+2025-04-20 00:36:43,578 - INFO - Data loaders ready. Num classes: 10
+2025-04-20 00:36:43,579 - INFO - Building CustomCNN: filters=[64, 64, 64, 64, 64], sizes=[3, 3, 3, 3, 3], activation=relu, dense=256, dropout=0.5, bn=True
+2025-04-20 00:36:43,691 - INFO - Model created and moved to device.
+2025-04-20 00:36:43,693 - INFO - Model Parameters: 955,466
+2025-04-20 00:36:43,693 - INFO - Estimated FLOPs (MACs*2): 356,317,440
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-20 00:36:43,695 - INFO - Starting training for 15 epochs...
+2025-04-20 00:38:42,639 - INFO - Epoch 1/15 | Train Loss: 2.3201, Train Acc: 12.10% | Val Loss: 2.2945, Val Acc: 11.26% | LR: 0.001000 | Time: 118.94s                                       
+2025-04-20 00:38:42,675 - INFO - New best model saved: best_model_ep1_acc11.26.pth
+2025-04-20 00:40:19,970 - INFO - Epoch 2/15 | Train Loss: 2.2701, Train Acc: 13.22% | Val Loss: 2.2736, Val Acc: 13.66% | LR: 0.001000 | Time: 97.29s                                        
+2025-04-20 00:40:19,999 - INFO - New best model saved: best_model_ep2_acc13.66.pth
+2025-04-20 00:41:56,670 - INFO - Epoch 3/15 | Train Loss: 2.2648, Train Acc: 14.15% | Val Loss: 2.2650, Val Acc: 16.81% | LR: 0.001000 | Time: 96.67s                                        
+2025-04-20 00:41:56,699 - INFO - New best model saved: best_model_ep3_acc16.81.pth
+2025-04-20 00:43:33,336 - INFO - Epoch 4/15 | Train Loss: 2.2574, Train Acc: 14.45% | Val Loss: 2.2789, Val Acc: 15.31% | LR: 0.001000 | Time: 96.64s                                        
+Epoch 5/15 [Train]:   0%|                                                                                                                                            | 0/250 [00:00<?, ?it/s]

@@ -1,0 +1,18 @@
+{"time":"2025-04-18T15:48:05.6858735+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_154805-goeix3lk\\logs\\debug-core.log"}
+{"time":"2025-04-18T15:48:07.5282889+05:30","level":"INFO","msg":"created new stream","id":"goeix3lk"}
+{"time":"2025-04-18T15:48:07.5289442+05:30","level":"INFO","msg":"stream: started","id":"goeix3lk"}
+{"time":"2025-04-18T15:48:07.5289442+05:30","level":"INFO","msg":"handler: started","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:48:07.5289442+05:30","level":"INFO","msg":"sender: started","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:48:07.5289442+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:48:07.8369396+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T15:48:18.6272663+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50929"}
+{"time":"2025-04-18T15:48:19.0994471+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:50929"}
+{"time":"2025-04-18T15:49:49.8783473+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T15:49:49.8783473+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T15:49:50.8918202+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.1887918},{"desc":"uploading wandb-summary.json","runtime_seconds":0.1887918,"progress":"26B/26B"}],"total_operations":2}}
+{"time":"2025-04-18T15:49:51.9990835+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T15:49:52.3699289+05:30","level":"INFO","msg":"stream: closing","id":"goeix3lk"}
+{"time":"2025-04-18T15:49:52.3699289+05:30","level":"INFO","msg":"handler: closed","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:49:52.3699289+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:49:52.3699289+05:30","level":"INFO","msg":"sender: closed","stream_id":"goeix3lk"}
+{"time":"2025-04-18T15:49:52.371146+05:30","level":"INFO","msg":"stream: closed","id":"goeix3lk"}

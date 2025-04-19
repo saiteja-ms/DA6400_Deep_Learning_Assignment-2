@@ -1,0 +1,33 @@
+2025-04-19 03:58:50,775 - INFO - Starting W&B Run: hl_?_bs_64_ac_gelu with ID: 35czq23h
+2025-04-19 03:58:50,775 - INFO - Run config: {'activation': 'gelu', 'batch_norm': False, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 512, 'dropout_rate': 0.4004527725359798, 'epochs': 10, 'filter_organization': 'double', 'filter_size': 3, 'learning_rate': 0.002020050869581112, 'num_filters': 32}
+2025-04-19 03:58:50,813 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 03:58:50,814 - INFO - Seed set to 42
+2025-04-19 03:58:50,814 - INFO - Using device: cuda
+2025-04-19 03:58:50,814 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 03:58:50,815 - INFO - Using data augmentation for training.
+2025-04-19 03:58:50,819 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:58:51,727 - INFO - Loaded 9999 image paths in total.
+2025-04-19 03:58:51,728 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 03:58:51,869 - INFO - Loaded 2000 image paths in total.
+2025-04-19 03:58:51,870 - INFO - Number of classes: 10
+2025-04-19 03:58:51,873 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 03:58:51,876 - INFO - Data loaders created successfully.
+2025-04-19 03:58:51,877 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 03:58:51,877 - INFO - Building CustomCNN: filters=[32, 64, 128, 256, 512], sizes=[3, 3, 3, 3, 3], activation=gelu, dense=512, dropout=0.4004527725359798, bn=False
+2025-04-19 03:58:52,071 - INFO - Model created.
+2025-04-19 03:58:52,073 - INFO - Model Parameters: 14,419,274
+2025-04-19 03:58:52,073 - INFO - Estimated FLOPs (MACs*2): 509,798,400
+C:\Users\DELL\anaconda3\envs\CV\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 03:58:52,076 - INFO - Starting training for 10 epochs...
+2025-04-19 04:00:50,544 - INFO - Ep 1/10 | Tr Loss: 2.5044, Tr Acc: 14.69% | Val Loss: 3.1594, Val Acc: 11.26% | LR: 0.002020 | Time: 118.47s                                                
+2025-04-19 04:02:49,822 - INFO - Ep 2/10 | Tr Loss: 2.1974, Tr Acc: 19.76% | Val Loss: 2.6959, Val Acc: 14.86% | LR: 0.002020 | Time: 119.28s                                                
+2025-04-19 04:04:50,472 - INFO - Ep 3/10 | Tr Loss: 2.1483, Tr Acc: 22.21% | Val Loss: 2.2201, Val Acc: 18.86% | LR: 0.002020 | Time: 120.65s                                                
+2025-04-19 04:06:46,045 - INFO - Ep 4/10 | Tr Loss: 2.1235, Tr Acc: 23.51% | Val Loss: 2.4257, Val Acc: 13.96% | LR: 0.002020 | Time: 115.57s                                                
+2025-04-19 04:08:39,225 - INFO - Ep 5/10 | Tr Loss: 2.1040, Tr Acc: 24.59% | Val Loss: 2.4619, Val Acc: 15.86% | LR: 0.002020 | Time: 113.18s                                                
+2025-04-19 04:10:32,532 - INFO - Ep 6/10 | Tr Loss: 2.0889, Tr Acc: 24.98% | Val Loss: 2.7896, Val Acc: 17.06% | LR: 0.002020 | Time: 113.31s                                                
+2025-04-19 04:12:30,013 - INFO - Ep 7/10 | Tr Loss: 2.1004, Tr Acc: 24.81% | Val Loss: 2.3619, Val Acc: 20.61% | LR: 0.000404 | Time: 117.48s                                                
+2025-04-19 04:14:30,702 - INFO - Ep 8/10 | Tr Loss: 1.9778, Tr Acc: 29.96% | Val Loss: 2.1231, Val Acc: 25.46% | LR: 0.000404 | Time: 120.69s                                                
+2025-04-19 04:16:30,766 - INFO - Ep 9/10 | Tr Loss: 1.9325, Tr Acc: 32.14% | Val Loss: 2.1938, Val Acc: 24.81% | LR: 0.000404 | Time: 120.06s                                                
+2025-04-19 04:18:23,777 - INFO - Ep 10/10 | Tr Loss: 1.9165, Tr Acc: 32.65% | Val Loss: 2.2962, Val Acc: 20.31% | LR: 0.000404 | Time: 113.01s                                               
+2025-04-19 04:18:23,789 - INFO - Run hl_?_bs_64_ac_gelu finished. Best val_acc: 25.46% at epoch 8

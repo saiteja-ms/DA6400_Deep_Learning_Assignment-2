@@ -1,0 +1,18 @@
+{"time":"2025-04-18T17:58:14.4285233+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_175814-bel5s56x\\logs\\debug-core.log"}
+{"time":"2025-04-18T17:58:14.8398386+05:30","level":"INFO","msg":"created new stream","id":"bel5s56x"}
+{"time":"2025-04-18T17:58:14.8398386+05:30","level":"INFO","msg":"stream: started","id":"bel5s56x"}
+{"time":"2025-04-18T17:58:14.8398386+05:30","level":"INFO","msg":"handler: started","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:58:14.8398386+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:58:14.8398386+05:30","level":"INFO","msg":"sender: started","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:58:15.1253071+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:58:22.020732+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53069"}
+{"time":"2025-04-18T17:58:22.4695927+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:53069"}
+{"time":"2025-04-18T17:59:51.9317282+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:59:51.9317282+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:59:52.941682+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.4165676,"progress":"25B/25B"},{"desc":"uploading config.yaml","runtime_seconds":0.1346797,"progress":"1011B/1011B"}],"total_operations":2}}
+{"time":"2025-04-18T17:59:53.8263558+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:59:54.1564019+05:30","level":"INFO","msg":"stream: closing","id":"bel5s56x"}
+{"time":"2025-04-18T17:59:54.1564019+05:30","level":"INFO","msg":"handler: closed","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:59:54.1564019+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:59:54.1564019+05:30","level":"INFO","msg":"sender: closed","stream_id":"bel5s56x"}
+{"time":"2025-04-18T17:59:54.1564019+05:30","level":"INFO","msg":"stream: closed","id":"bel5s56x"}

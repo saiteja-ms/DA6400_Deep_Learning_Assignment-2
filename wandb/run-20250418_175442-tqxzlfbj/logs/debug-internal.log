@@ -1,0 +1,18 @@
+{"time":"2025-04-18T17:54:42.1800707+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_175442-tqxzlfbj\\logs\\debug-core.log"}
+{"time":"2025-04-18T17:54:42.5912197+05:30","level":"INFO","msg":"created new stream","id":"tqxzlfbj"}
+{"time":"2025-04-18T17:54:42.5912197+05:30","level":"INFO","msg":"stream: started","id":"tqxzlfbj"}
+{"time":"2025-04-18T17:54:42.5912197+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:54:42.5912197+05:30","level":"INFO","msg":"sender: started","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:54:42.5912197+05:30","level":"INFO","msg":"handler: started","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:54:42.9393209+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:54:49.9878325+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52974"}
+{"time":"2025-04-18T17:54:50.441075+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52974"}
+{"time":"2025-04-18T17:56:19.9152061+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:56:19.9152061+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:56:20.9272399+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.4071236,"progress":"6.3KB/6.3KB"},{"desc":"uploading config.yaml","runtime_seconds":0.1398996,"progress":"1006B/1006B"}],"total_operations":2}}
+{"time":"2025-04-18T17:56:21.1399647+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:56:21.4465622+05:30","level":"INFO","msg":"stream: closing","id":"tqxzlfbj"}
+{"time":"2025-04-18T17:56:21.4465622+05:30","level":"INFO","msg":"handler: closed","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:56:21.4465622+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:56:21.4465622+05:30","level":"INFO","msg":"sender: closed","stream_id":"tqxzlfbj"}
+{"time":"2025-04-18T17:56:21.4465622+05:30","level":"INFO","msg":"stream: closed","id":"tqxzlfbj"}

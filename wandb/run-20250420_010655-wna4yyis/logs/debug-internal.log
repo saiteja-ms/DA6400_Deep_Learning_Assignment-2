@@ -1,0 +1,15 @@
+{"time":"2025-04-20T01:06:55.6995525+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250420_010655-wna4yyis\\logs\\debug-core.log"}
+{"time":"2025-04-20T01:06:56.1209291+05:30","level":"INFO","msg":"created new stream","id":"wna4yyis"}
+{"time":"2025-04-20T01:06:56.1209291+05:30","level":"INFO","msg":"stream: started","id":"wna4yyis"}
+{"time":"2025-04-20T01:06:56.1209291+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:06:56.1209291+05:30","level":"INFO","msg":"handler: started","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:06:56.1214851+05:30","level":"INFO","msg":"sender: started","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:06:56.7843465+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-20T01:14:23.3272674+05:30","level":"INFO","msg":"stream: closing","id":"wna4yyis"}
+{"time":"2025-04-20T01:14:23.3286714+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-20T01:14:23.3294125+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-20T01:14:24.8175641+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-20T01:14:25.3310632+05:30","level":"INFO","msg":"handler: closed","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:14:25.3310632+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:14:25.3310632+05:30","level":"INFO","msg":"sender: closed","stream_id":"wna4yyis"}
+{"time":"2025-04-20T01:14:25.3310632+05:30","level":"INFO","msg":"stream: closed","id":"wna4yyis"}

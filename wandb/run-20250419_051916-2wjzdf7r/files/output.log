@@ -1,0 +1,28 @@
+2025-04-19 05:19:17,236 - INFO - Starting W&B Run: fl_128_fo_same_fs_5_bs_64_ac_gelu with ID: 2wjzdf7r
+2025-04-19 05:19:17,236 - INFO - Run config: {'activation': 'gelu', 'batch_norm': True, 'batch_size': 64, 'data_augmentation': True, 'dense_neurons': 128, 'dropout_rate': 0.1555158702218946, 'epochs': 10, 'filter_organization': 'same', 'filter_size': 5, 'learning_rate': 0.0031051932238553587, 'num_filters': 128}
+2025-04-19 05:19:17,272 - INFO - CUDA available. Setting deterministic CUDA operations.
+2025-04-19 05:19:17,273 - INFO - Seed set to 42
+2025-04-19 05:19:17,273 - INFO - Using device: cuda
+2025-04-19 05:19:17,273 - INFO - Setting up data loaders: batch_size=64, augment=True, val_split=0.2, img_size=224
+2025-04-19 05:19:17,274 - INFO - Using data augmentation for training.
+2025-04-19 05:19:17,275 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 05:19:17,862 - INFO - Loaded 9999 image paths in total.
+2025-04-19 05:19:17,865 - INFO - Found 10 classes: ['Amphibia', 'Animalia', 'Arachnida', 'Aves', 'Fungi', 'Insecta', 'Mammalia', 'Mollusca', 'Plantae', 'Reptilia']
+2025-04-19 05:19:18,127 - INFO - Loaded 2000 image paths in total.
+2025-04-19 05:19:18,128 - INFO - Number of classes: 10
+2025-04-19 05:19:18,131 - INFO - Manual stratified split: 8000 train, 1999 validation samples.
+2025-04-19 05:19:18,134 - INFO - Data loaders created successfully.
+2025-04-19 05:19:18,134 - INFO - Data loaders ready. Num classes: 10
+2025-04-19 05:19:18,134 - INFO - Building CustomCNN: filters=[128, 128, 128, 128, 128], sizes=[5, 5, 5, 5, 5], activation=gelu, dense=128, dropout=0.1555158702218946, bn=True
+2025-04-19 05:19:18,236 - INFO - Model created.
+2025-04-19 05:19:18,237 - INFO - Model Parameters: 2,453,514
+2025-04-19 05:19:18,238 - INFO - Estimated FLOPs (MACs*2): 3,662,976,000
+C:\Users\DELL\anaconda3\envs\DLP\lib\site-packages\torch\optim\lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+2025-04-19 05:19:18,239 - INFO - Starting training for 10 epochs...
+2025-04-19 05:59:43,143 - INFO - Ep 1/10 | Tr Loss: 2.4667, Tr Acc: 11.69% | Val Loss: 2.2836, Val Acc: 11.66% | LR: 0.003105 | Time: 2424.89s                                               
+2025-04-19 06:39:09,942 - INFO - Ep 2/10 | Tr Loss: 2.2766, Tr Acc: 12.93% | Val Loss: 2.2629, Val Acc: 15.16% | LR: 0.003105 | Time: 2366.79s                                               
+2025-04-19 07:18:52,597 - INFO - Ep 3/10 | Tr Loss: 2.2703, Tr Acc: 14.59% | Val Loss: 2.2451, Val Acc: 15.16% | LR: 0.003105 | Time: 2382.65s                                               
+Epoch 4/10 [Train]:  34%|██████████████████████████████████▉                                                                     | 42/125 [2:23:09<23:34, 17.04s/it, Loss=2.2539, Acc=15.13%][34m[1mwandb[0m: Network error (ConnectionError), entering retry loop.
+2025-04-19 10:26:23,755 - INFO - Ep 4/10 | Tr Loss: 2.2519, Tr Acc: 15.12% | Val Loss: 2.2282, Val Acc: 16.16% | LR: 0.003105 | Time: 11251.15s                                              
+Epoch 5/10 [Train]:  57%|████████████████████████████████████████████████████████████▏                                             | 71/125 [20:12<15:09, 16.84s/it, Loss=2.2472, Acc=15.98%]

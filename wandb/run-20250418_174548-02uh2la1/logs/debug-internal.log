@@ -1,0 +1,18 @@
+{"time":"2025-04-18T17:45:48.6690244+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_174548-02uh2la1\\logs\\debug-core.log"}
+{"time":"2025-04-18T17:45:49.0700038+05:30","level":"INFO","msg":"created new stream","id":"02uh2la1"}
+{"time":"2025-04-18T17:45:49.0700038+05:30","level":"INFO","msg":"stream: started","id":"02uh2la1"}
+{"time":"2025-04-18T17:45:49.0700038+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:45:49.0700038+05:30","level":"INFO","msg":"sender: started","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:45:49.0700038+05:30","level":"INFO","msg":"handler: started","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:45:49.37527+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T17:45:56.1932375+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52707"}
+{"time":"2025-04-18T17:45:56.6283005+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:52707"}
+{"time":"2025-04-18T17:47:26.0969335+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-18T17:47:26.0969335+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-18T17:47:27.1121231+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.1421121,"progress":"1004B/1004B"}],"total_operations":1}}
+{"time":"2025-04-18T17:47:27.3219958+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-18T17:47:27.6235587+05:30","level":"INFO","msg":"stream: closing","id":"02uh2la1"}
+{"time":"2025-04-18T17:47:27.6235587+05:30","level":"INFO","msg":"handler: closed","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:47:27.6235587+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:47:27.6235587+05:30","level":"INFO","msg":"sender: closed","stream_id":"02uh2la1"}
+{"time":"2025-04-18T17:47:27.6235587+05:30","level":"INFO","msg":"stream: closed","id":"02uh2la1"}

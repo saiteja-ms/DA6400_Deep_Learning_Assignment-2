@@ -1,0 +1,9 @@
+{"time":"2025-04-18T19:45:44.9586552+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"C:\\Users\\DELL\\Documents\\SEMESTER 8\\Deep Learning\\Assignment_2\\wandb\\run-20250418_194544-1rt4i530\\logs\\debug-core.log"}
+{"time":"2025-04-18T19:45:45.4091872+05:30","level":"INFO","msg":"created new stream","id":"1rt4i530"}
+{"time":"2025-04-18T19:45:45.4091872+05:30","level":"INFO","msg":"stream: started","id":"1rt4i530"}
+{"time":"2025-04-18T19:45:45.4091872+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"1rt4i530"}
+{"time":"2025-04-18T19:45:45.4091872+05:30","level":"INFO","msg":"handler: started","stream_id":"1rt4i530"}
+{"time":"2025-04-18T19:45:45.4091872+05:30","level":"INFO","msg":"sender: started","stream_id":"1rt4i530"}
+{"time":"2025-04-18T19:45:45.7416131+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-18T19:45:57.0617925+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:58520"}
+{"time":"2025-04-18T19:45:57.3611741+05:30","level":"ERROR","msg":"dispatch: no responder found: 127.0.0.1:58520"}
