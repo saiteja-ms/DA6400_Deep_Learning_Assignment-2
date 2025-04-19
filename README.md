@@ -3,8 +3,8 @@
 DA6401 Assignment - 2
 *(Note: Data directory like `inaturalist_12K` is assumed to be present locally but not committed to Git)*
 
-## Link to the wandb report: [![W&B Report](https://img.shields.io/badge/Report-W%26B-blue?logo=weightsandbiases)](https://wandb.ai/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/reports/DA6400-Assignment-2-Report--VmlldzoxMjM2NjA5Mw?accessToken=ine6bzgu1w7bhdv67yxdgshyjery80su5p9jt9n17s2pucb7opfa7j0ralxw9pye)
-## Link to the github repo: [GitHub Repo](https://github.com/saiteja-ms/DA6400_Deep_Learning_Assignment-2)
+## Link to the wandb report: [![W&B Report](https://img.shields.io/badge/Report-W%26B-blue?logo=weightsandbiases)](https://wandb.ai/teja_sai-indian-institute-of-technology-madras/CNN_FROM_SCRATCH_SWEEP/reports/DA6401-Assignment-2-Report--VmlldzoxMjM2NjA5Mw?accessToken=ine6bzgu1w7bhdv67yxdgshyjery80su5p9jt9n17s2pucb7opfa7j0ralxw9pye)
+## Link to the github repo: [GitHub Repo](https://github.com/saiteja-ms/DA6401_Deep_Learning_Assignment-2)
 ---
 
 ## Setup Instructions
